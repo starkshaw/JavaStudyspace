@@ -12,5 +12,5 @@ Study Space (Java)
 - [Solution.java](SieveOfEratothenes/src/Solution.java) - This could could print out a list of prime numbers from 2 to a certain number. Note that this code was modified to accept command argument. Run `java Solution 100` is same as input 100 when the program prompt without any argument.
 
 ### Fibonacci Sequence
-**See the command help information,complie and run `java Fibonacci -help` in Command Prompt or Terminal. This package includes the method of creating a parameter-supported java program and exception handle statement.
+**See the command help information,complie and run `java Fibonacci -help` in Command Prompt or Terminal. This package includes the method of creating a parameter-supported java program and exception handle statement.**
 - [Fibonacci.java](FibonacciSequence/src/Fibonacci.java
