@@ -14,3 +14,10 @@ Study Space (Java)
 ### Fibonacci Sequence
 **See the command help information, complie and run `java Fibonacci -help` in Command Prompt or Terminal. This package includes the method of creating a parameter-supported java program and exception handle statement.**
 - [Fibonacci.java](FibonacciSequence/src/Fibonacci.java) - The main class.
+
+### Sample Paper of CS210 on January 2015 ###
+- [q1.java](SamplePaper/q1/src/main.java)
+- [q2.java](SamplePaper/q2/src/main.java)
+- [q3.java](SamplePaper/q3/src/main.java)
+- [q4.java](SamplePaper/q4/src/main.java)
+- [q5.java](SamplePaper/q5/src/main.java)
