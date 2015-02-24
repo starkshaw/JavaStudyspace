@@ -21,3 +21,9 @@ Study Space (Java)
 - [q3.java](SamplePaper/q3/src/main.java)
 - [q4.java](SamplePaper/q4/src/main.java)
 - [q5.java](SamplePaper/q5/src/main.java)
+
+### Huffman Compression
+**Also find C# version at [here](https://github.com/starkshaw/CSstudyspace/tree/master/HuffmanCompression).**
+- [Huffman.java](HuffmanAdvanced/src/Huffman.java) - The main program.
+- [Node.java](HuffmanAdvanced/src/Node.java) - The node class.
+- [Tree.java](HuffmanAdvanced/src/Tree.java) - The tree class.
