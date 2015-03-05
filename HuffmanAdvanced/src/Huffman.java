@@ -43,7 +43,11 @@ public class Huffman {
                 //FILL THIS IN:
 
                 //MAKE THE FOREST OF TREES AND ADD THEM TO THE PQ
-
+                Tree myTree = new Tree();
+                myTree.frequency = array[i];
+                myTree.root = new Node();
+                myTree.root.letter = (char) i;
+                PQ.add(myTree);
                 //create a new Tree
                 //set the cumulative frequency of that Tree
                 //insert the letter as the root node
@@ -58,6 +62,11 @@ public class Huffman {
             //FILL THIS IN:
 
             //IMPLEMENT THE HUFFMAN ALGORITHM
+            Tree firstTree = PQ.poll();
+            Tree secondTree = PQ.poll();
+            Tree comboTree = new Tree();
+            comboTree.frequency = firstTree.frequency + secondTree.frequency;
+            comboTree.root = new Node();
 
             //when you're making the new combined tree, don't forget to assign a default root node (or else you'll get a null pointer exception)
             //if you like, to check if everything is working so far, try printing out the letter of the roots of the two trees you're combining
