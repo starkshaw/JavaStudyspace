@@ -8,52 +8,35 @@ public class Huffman {
 
     public static void main(String[] args) {
         Scanner in = new Scanner(System.in);
-
         System.out.print("Enter your sentence: ");
         String sentence = in.nextLine();
-        String binaryString = "";      //this stores the string of binary code
+        String encoded = "";
+        String original = "";
 
+        int[] counter = new int[sentence.length()]; // Each position is for the letter in the position in the word.
 
-        for (int i = 0; i < sentence.length(); i++) {        //go through the sentence
-            int decimalValue = (int) sentence.charAt(i);      //convert to decimal
-            String binaryValue = Integer.toBinaryString(decimalValue);      //convert to binary
-            for (int j = 7; j > binaryValue.length(); j--) {
-                binaryString += "0";           //this loop adds in those pesky leading zeroes
-            }
-            binaryString += binaryValue + " "; //add to the string of binary
-        }
-        System.out.println(binaryString);    //print out the binary
+        for (char c : sentence.toCharArray()) {
+            String ASCII_code = Integer.toBinaryString((int) c);
+            if (ASCII_code.length() == 6) ASCII_code = "0" + ASCII_code; // Make to 7 chars long.
 
-
-        int[] array = new int[256];      //an array to store all the frequencies
-
-        for (int i = 0; i < sentence.length(); i++) {    //go through the sentence
-            array[(int) sentence.charAt(i)]++;    //increment the appropriate frequencies
-
+            original += ASCII_code + " ";
+            counter[sentence.indexOf(c)]++; // Count the number of times this character appears.
         }
 
+        System.out.println(original + "\n");
 
         PriorityQueue<Tree> PQ = new PriorityQueue<Tree>();  //make a priority queue to hold the forest of trees
 
+        for (int i = 0; i < counter.length; i++) {
 
-        for (int i = 0; i < array.length; i++) { //go through frequency array
-            if (array[i] > 0) { //print out non-zero frequencies - cast to a char
-                System.out.println("'" + (char) i + "' appeared " + array[i] + ((array[i] == 1) ? " time" : " times"));
+            if (counter[i] != 0) {
+                // Print number of times each char appeared.
+                System.out.println("'" + sentence.charAt(i) + "' appeared " + counter[i] + " time" + ((counter[i] > 1) ? "s" : ""));
 
-                //FILL THIS IN:
-
-                //MAKE THE FOREST OF TREES AND ADD THEM TO THE PQ
-                Tree myTree = new Tree();
-                myTree.frequency = array[i];
-                myTree.root = new Node();
-                myTree.root.letter = (char) i;
-                PQ.add(myTree);
-                //create a new Tree
-                //set the cumulative frequency of that Tree
-                //insert the letter as the root node
-                //add the Tree into the PQ
-
+                // Create a tree with one node and add to priority que.
+                PQ.add(Tree.growTree(counter[i], sentence.charAt(i))); // Create a new tree with frequency and char.
             }
+
         }
 
 
@@ -65,16 +48,33 @@ public class Huffman {
             Tree firstTree = PQ.poll();
             Tree secondTree = PQ.poll();
             Tree comboTree = new Tree();
+
             comboTree.frequency = firstTree.frequency + secondTree.frequency;
             comboTree.root = new Node();
-
+            Tree totalTree = Tree.growTree(comboTree.frequency, firstTree, secondTree);
+            PQ.add(totalTree);
             //when you're making the new combined tree, don't forget to assign a default root node (or else you'll get a null pointer exception)
             //if you like, to check if everything is working so far, try printing out the letter of the roots of the two trees you're combining
         }
 
         Tree HuffmanTree = PQ.poll();   //now there's only one tree left - get its codes
+        System.out.println();
+        for (char c : sentence.toCharArray()) {
+            encoded += HuffmanTree.getCode(c) + " ";
+        }
+        System.out.println(encoded);
+        double original_bits = countBits(original);
+        double encoded_bits = countBits(encoded);
+        double compressed = Math.round((encoded_bits / original_bits) * 10000) / 100.00;
+        System.out.println("Compressed size is " + (int) encoded_bits + " bits / " + (int) original_bits + " bits = " + compressed + "%\n");
+    }
 
-
+    public static double countBits(String sentence) {
+        int count = sentence.length();
+        for(char c : sentence.toCharArray()) {
+            if(c == ' ') count--; // Decrement from string length count if space is found.
+        }
+        return (double) count;
         //FILL THIS IN:
 
         //get all the codes for the letters and print them out

@@ -23,11 +23,52 @@ public class Tree implements Comparable<Tree> {
         }
     }
 
-    String path="error";
+    String path = "error";
 
-    public String getCode (char letter){
-        path = Integer.toBinaryString((int)letter);
-        return path;
+    public String getCode(char letter) {
+        path = "";      // Initialize
+        if(findPath(this.root, letter)==true){
+            return path;
+        }else{
+            return "error";
+        }
     }
 
+    public boolean findPath(Node root, char letter) {
+        if(root.letter == letter){
+            return true; // Found the letter
+        }
+        if(root.leftChild != null && findPath(root.leftChild, letter)) {
+            path = 0 + path;
+            return true; // Pass true value back to the top!
+        }
+        if(root.rightChild != null && findPath(root.rightChild, letter)) {
+            path = 1 + path;
+            return true;
+        }
+        return false;
+    }
+
+    public static Tree growTree(int frequency, char letter) {
+        Tree newTree = new Tree();
+        newTree.frequency = frequency;
+        newTree.root = new Node();
+        newTree.root.letter = letter;
+        return newTree;
+    }
+
+    public static Tree growTree(int frequency, Tree one, Tree two) {
+        Tree newTree = new Tree();
+        newTree.frequency = frequency;
+        newTree.root = new Node();
+        // Check which node should go where.
+        if(one.frequency > two.frequency) {
+            newTree.root.leftChild = one.root;
+            newTree.root.rightChild = two.root;
+        } else {
+            newTree.root.leftChild = two.root;
+            newTree.root.rightChild = one.root;
+        }
+        return newTree;
+    }
 }
