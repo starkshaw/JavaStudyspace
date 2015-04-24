@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Hashing {
-    static int size = 216569;
+    static int size = 344220211;
     //this is the size of the hash table - a prime number is best
     static String[] hashTable = new String[size];
     //create the hash table
@@ -20,7 +20,12 @@ public class Hashing {
         System.out.println("2) Quadratic Probing");
         System.out.println("3) Double Hashing");
         Scanner in = new Scanner(System.in);
-        int strategy = in.nextInt();
+        int strategy = 0;
+        if(args.length!=0){
+            strategy = Integer.parseInt(args[0]);
+        } else {
+            strategy = in.nextInt();
+        }
 //the user enters a number for the hashing strategy they want to use
         switch (strategy) {
             case 1:
@@ -91,15 +96,30 @@ public class Hashing {
         try {
             byte[] asciiSeq = word.getBytes("US-ASCII");
             long[] tempHash = new long[word.length()];
-            for (int i = 0; i < asciiSeq.length; i++) {
-                tempHash[i] = (long) (asciiSeq[i] * Math.pow(26, i));
-                //System.out.println(asciiSeq[i] + " : " + tempHash[i]);
+            //System.out.println(asciiSeq.length);
+            if (asciiSeq.length <= 12) {
+                for (int i = 0; i < asciiSeq.length; i++) {
+                    tempHash[i] = (long) ((asciiSeq[i] - 96) * Math.pow(27, i));
+                    //System.out.println(asciiSeq[i] + ", " + (asciiSeq[i] - 96) + " : " + tempHash[i]);
+                }
+            } else {
+                byte[] tmpSeq = new byte[12];
+                int count = 0;
+                while (count <= tmpSeq.length-1) {
+                    tmpSeq[count] = asciiSeq[asciiSeq.length - 1 - count];
+                    //System.out.println(count + " : " + tmpSeq[count]);
+                    count++;
+                }
+                for (int i = 0; i < tmpSeq.length; i++) {
+                    tempHash[i] = (long) ((tmpSeq[i] - 96) * Math.pow(27, i));
+                    //System.out.println(asciiSeq[i] + ", " + (asciiSeq[i] - 96) + " : " + tempHash[i]);
+                }
             }
             for (int i = 0; i < tempHash.length; i++) {
                 tempSum = tempSum + tempHash[i];
-                System.out.println("Sum: " + tempSum);
+                //System.out.println("Sum: " + tempSum);
             }
-            System.out.println("The hash code for " + word + " is " + tempSum);
+            //System.out.println("The hash code for " + word + " is " + tempSum);
             //return (int) word.charAt(word.length() - 1);
             tempMod = tempSum % size;
             return (int) (tempMod);

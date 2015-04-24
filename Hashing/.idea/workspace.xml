@@ -24,11 +24,11 @@
   </component>
   <component name="FileEditorManager">
     <leaf>
-      <file leaf-file-name="Hashing.java" pinned="false" current-in-tab="false">
+      <file leaf-file-name="Hashing.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Hashing.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7375">
-              <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
+            <state vertical-scroll-proportion="0.6044905" vertical-offset="0" max-vertical-offset="7875">
+              <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -36,15 +36,15 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="testHashKey.java" pinned="false" current-in-tab="true">
+      <file leaf-file-name="testHashKey.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/testHashKey/src/testHashKey.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state vertical-scroll-proportion="0.32733223" vertical-offset="0" max-vertical-offset="1225">
-              <caret line="8" column="35" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="35" />
+            <state vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="1600">
+              <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
               <folding>
                 <element signature="n#!!doc" expanded="true" />
-                <element signature="e#184#185#0" expanded="true" />
-                <element signature="e#227#228#0" expanded="true" />
+                <element signature="e#187#188#0" expanded="true" />
+                <element signature="e#230#231#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -55,8 +55,8 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/Hashing.java" />
         <option value="$PROJECT_DIR$/testHashKey/src/testHashKey.java" />
+        <option value="$PROJECT_DIR$/Hashing.java" />
       </list>
     </option>
   </component>
@@ -89,6 +89,7 @@
       <sortByType />
     </navigator>
     <panes>
+      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <PATH>
@@ -141,7 +142,6 @@
           </PATH>
         </subPane>
       </pane>
-      <pane id="Scope" />
       <pane id="PackagesPane" />
     </panes>
   </component>
@@ -158,6 +158,7 @@
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="dynamic.classpath" value="false" />
+    <property name="FullScreen" value="false" />
   </component>
   <component name="RunManager" selected="Application.testHashKey">
     <configuration default="false" name="testHashKey" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
@@ -340,6 +341,9 @@
     </recent_temporary>
   </component>
   <component name="ShelveChangesManager" show_recycled="false" />
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
       <changelist id="2d1a017b-1949-437a-b7e4-7e67823eabd8" name="Default" comment="" />
@@ -356,14 +360,14 @@
       <window_info id="Changes" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990867" sideWeight="0.5" order="-1" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.32990867" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="SLIDING" type="SLIDING" visible="false" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
-      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.26598173" sideWeight="0.5" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Application Servers" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.26598173" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" weight="0.14545454" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
@@ -406,17 +410,7 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/Hashing.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="1750" max-vertical-offset="7250">
-          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/Hashing.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="7375">
+        <state vertical-scroll-proportion="0.0" vertical-offset="100" max-vertical-offset="7375">
           <caret line="4" column="28" selection-start-line="4" selection-start-column="28" selection-end-line="4" selection-end-column="28" />
           <folding>
             <element signature="imports" expanded="true" />
@@ -426,12 +420,44 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/testHashKey/src/testHashKey.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state vertical-scroll-proportion="0.32733223" vertical-offset="0" max-vertical-offset="1225">
-          <caret line="8" column="35" selection-start-line="8" selection-start-column="29" selection-end-line="8" selection-end-column="35" />
+        <state vertical-scroll-proportion="0.0" vertical-offset="0" max-vertical-offset="1225">
+          <caret line="0" column="0" selection-start-line="0" selection-start-column="0" selection-end-line="0" selection-end-column="0" />
           <folding>
             <element signature="n#!!doc" expanded="true" />
-            <element signature="e#184#185#0" expanded="true" />
-            <element signature="e#227#228#0" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hashing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="1750" max-vertical-offset="7250">
+          <caret line="91" column="13" selection-start-line="91" selection-start-column="13" selection-end-line="91" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/testHashKey/src/testHashKey.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.0" vertical-offset="650" max-vertical-offset="1600">
+          <caret line="39" column="30" selection-start-line="39" selection-start-column="30" selection-end-line="39" selection-end-column="30" />
+          <folding>
+            <element signature="n#!!doc" expanded="true" />
+            <element signature="e#187#188#0" expanded="true" />
+            <element signature="e#230#231#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Hashing.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state vertical-scroll-proportion="0.6044905" vertical-offset="0" max-vertical-offset="7875">
+          <caret line="14" column="57" selection-start-line="14" selection-start-column="57" selection-end-line="14" selection-end-column="57" />
+          <folding>
+            <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>

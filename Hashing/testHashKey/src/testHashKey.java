@@ -6,10 +6,10 @@ import java.io.*;
 
 public class testHashKey {
 
-    public static int size = 216569;
+    public static int size = 195010037;
 
     public static void main(String[] args) {
-        getHashKey("abbreviations");
+        getHashKey("seasicknesses");
     }
 
     public static int getHashKey(String word) {
@@ -23,13 +23,28 @@ public class testHashKey {
         try {
             byte[] asciiSeq = word.getBytes("US-ASCII");
             long[] tempHash = new long[word.length()];
-            for (int i = 0; i < asciiSeq.length; i++) {
-                tempHash[i] = (long) (asciiSeq[i] * Math.pow(26, i));
-                System.out.println(asciiSeq[i] + " : " + tempHash[i]);
+            //System.out.println(asciiSeq.length);
+            if (asciiSeq.length <= 12) {
+                for (int i = 0; i < asciiSeq.length; i++) {
+                    tempHash[i] = (long) ((asciiSeq[i] - 96) * Math.pow(27, i));
+                    //System.out.println(asciiSeq[i] + ", " + (asciiSeq[i] - 96) + " : " + tempHash[i]);
+                }
+            } else {
+                byte[] tmpSeq = new byte[12];
+                int count = 0;
+                while (count <= tmpSeq.length-1) {
+                    tmpSeq[count] = asciiSeq[asciiSeq.length - 1 - count];
+                    System.out.println(count + " : " + tmpSeq[count]);
+                    count++;
+                }
+                for (int i = 0; i < tmpSeq.length; i++) {
+                    tempHash[i] = (long) ((tmpSeq[i] - 96) * Math.pow(27, i));
+                    System.out.println(asciiSeq[i] + ", " + (asciiSeq[i] - 96) + " : " + tempHash[i]);
+                }
             }
             for (int i = 0; i < tempHash.length; i++) {
                 tempSum = tempSum + tempHash[i];
-                System.out.println("Sum: " + tempSum);
+                //System.out.println("Sum: " + tempSum);
             }
             System.out.println("The hash code for " + word + " is " + tempSum);
             //return (int) word.charAt(word.length() - 1);
