@@ -2,7 +2,7 @@ import java.io.*;
 import java.util.*;
 
 public class Hashing {
-    static int size = 344220211;
+    static int size = 400009;
     //this is the size of the hash table - a prime number is best
     static String[] hashTable = new String[size];
     //create the hash table
@@ -21,7 +21,7 @@ public class Hashing {
         System.out.println("3) Double Hashing");
         Scanner in = new Scanner(System.in);
         int strategy = 0;
-        if(args.length!=0){
+        if (args.length != 0) {
             strategy = Integer.parseInt(args[0]);
         } else {
             strategy = in.nextInt();
@@ -105,7 +105,7 @@ public class Hashing {
             } else {
                 byte[] tmpSeq = new byte[12];
                 int count = 0;
-                while (count <= tmpSeq.length-1) {
+                while (count <= tmpSeq.length - 1) {
                     tmpSeq[count] = asciiSeq[asciiSeq.length - 1 - count];
                     //System.out.println(count + " : " + tmpSeq[count]);
                     count++;
@@ -133,8 +133,12 @@ public class Hashing {
 //this method should be different to the primary hash function
 //it should return a different number for words which generated the same primary hash key value
 //for example, you could just add up all of the letters in the word
-
-        return (int) word.charAt(word.length() - 1);
+        int mod = 216555;
+        int count = 0;
+        for (int i = 0; i < word.length(); i++) {
+            count += mod - ((int) word.charAt(i) - mod);
+        }
+        return count % mod;
     }
 
 

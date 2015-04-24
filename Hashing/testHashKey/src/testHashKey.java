@@ -10,6 +10,7 @@ public class testHashKey {
 
     public static void main(String[] args) {
         getHashKey("seasicknesses");
+        getDoubleHashKey("seasicknesses");
     }
 
     public static int getHashKey(String word) {
@@ -54,5 +55,48 @@ public class testHashKey {
             System.out.println("Unsupported character set");
             return -1;
         }
+    }
+
+    public static int getDoubleHashKey(String word) {
+//this method should be different to the primary hash function
+//it should return a different number for words which generated the same primary hash key value
+//for example, you could just add up all of the letters in the word
+        long tempMod;
+        long tempSum = 0l;
+        try {
+            byte[] asciiSeq = word.getBytes("US-ASCII");
+            long[] tempHash = new long[word.length()];
+            //System.out.println(asciiSeq.length);
+            if (asciiSeq.length <= 12) {
+                for (int i = 0; i < asciiSeq.length; i++) {
+                    tempHash[i] = (long) ((asciiSeq[i] - 96) * Math.pow(27, i));
+                    //System.out.println(asciiSeq[i] + ", " + (asciiSeq[i] - 96) + " : " + tempHash[i]);
+                }
+            } else {
+                byte[] tmpSeq = new byte[12];
+                int count = 0;
+                while (count <= tmpSeq.length-1) {
+                    tmpSeq[count] = asciiSeq[asciiSeq.length - 1 - count];
+                    System.out.println(count + " : " + tmpSeq[count]);
+                    count++;
+                }
+                for (int i = 0; i < tmpSeq.length; i++) {
+                    tempHash[i] = (long) ((tmpSeq[i] - 96) * Math.pow(27, i));
+                    System.out.println(asciiSeq[i] + ", " + (asciiSeq[i] - 96) + " : " + tempHash[i]);
+                }
+            }
+            for (int i = 0; i < tempHash.length; i++) {
+                tempSum = tempSum + tempHash[i];
+                //System.out.println("Sum: " + tempSum);
+            }
+            System.out.println("The hash code for " + word + " is " + tempSum);
+            //return (int) word.charAt(word.length() - 1);
+            tempMod = tempSum % size;
+            return (int) (tempMod);
+        } catch (UnsupportedEncodingException e) {
+            System.out.println("Unsupported character set");
+            return -1;
+        }
+
     }
 }
