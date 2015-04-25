@@ -48,6 +48,7 @@ public class TextFileReading {
                 }
                 line++;
             }
+            read.close();   // Close the file reader
             // Print out all collected data
             for(int i = 0; i<allData.length;i++){
                 for(int j =0;j<allData[i].length;j++){
