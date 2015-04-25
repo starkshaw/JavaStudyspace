@@ -6,6 +6,10 @@ Study Space (Java)
 
 ***
 
+### Traveling Salesman Problem
+**Be advised, the text file shall be stored 2 copies at the root folder of TSP and also TSP/out/production/TSP.**
+- [TextFileReading.java](TSP/src/TextFileReading.java) - Text file reading test program.
+
 ### Sieve of Eratothenes
 **Note that in this folder you could learn how to deal with command argument and parse them to the program.**
 - [IndexOfPrime.java](SieveOfEratothenes/src/IndexOfPrime.java) - The code could print out the certain prime number with given index. Note that this code was modified to accept command argument. Run `java IndexOfPrime 100` is same as input 100 when the program prompt without any argument.
@@ -27,3 +31,5 @@ Study Space (Java)
 - [Huffman.java](HuffmanAdvanced/src/Huffman.java) - The main program.
 - [Node.java](HuffmanAdvanced/src/Node.java) - The node class.
 - [Tree.java](HuffmanAdvanced/src/Tree.java) - The tree class.
+
+### Hashing
