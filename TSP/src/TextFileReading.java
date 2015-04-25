@@ -50,8 +50,8 @@ public class TextFileReading {
             }
             read.close();   // Close the file reader
             // Print out all collected data
-            for(int i = 0; i<allData.length;i++){
-                for(int j =0;j<allData[i].length;j++){
+            for (int i = 0; i < allData.length; i++) {
+                for (int j = 0; j < allData[i].length; j++) {
                     System.out.print(allData[i][j] + "\t");
                 }
                 System.out.println();
