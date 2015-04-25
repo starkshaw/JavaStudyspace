@@ -55,4 +55,19 @@ public class DistanceCal {
 
         return RADIUS * c;
     }
+
+    /**
+     * Calculate the distance between 2 places use "Haversine", and based on coordinates stored in double arrays.
+     *
+     * @param coord1    1st coordinates
+     * @param coord2    2nd coordinates
+     * @return  Return the distance, if the length of arrays are not suitable returns 0;
+     */
+    public double calDistance(double[] coord1, double[] coord2) {
+        if((coord1.length==2)&&(coord2.length==2)){
+            return calDistance(coord1[0],coord1[1],coord2[0],coord2[1]);
+        }else{
+            return 0;
+        }
+    }
 }
