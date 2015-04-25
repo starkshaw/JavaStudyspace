@@ -22,16 +22,16 @@ public class DistanceCal {
         System.out.print("Enter the first coordinates by longitude and latitude respectively, separate by a comma only: ");
         coord1 = read.nextLine();
         String[] tmp1 = coord1.split(",");
-        lon1 = Double.parseDouble(tmp1[0]);
-        lat1 = Double.parseDouble(tmp1[1]);
+        lat1 = Double.parseDouble(tmp1[0]);
+        lon1 = Double.parseDouble(tmp1[1]);
         System.out.print("\nEnter the second coordinates by longitude and latitude respectively, separate by a comma only: ");
         coord2 = read.nextLine();
         String[] tmp2 = coord2.split(",");
-        lon2 = Double.parseDouble(tmp2[0]);
-        lat2 = Double.parseDouble(tmp2[1]);
-        System.out.println("\nThe distance of (" + lon1 + ", " +
-                lat1 + ") to (" + lon2 + ", " + lat2 + ") is " +
-                calDistance(lon1, lat1, lon2, lat2) + " km.");
+        lat2 = Double.parseDouble(tmp2[0]);
+        lon2 = Double.parseDouble(tmp2[1]);
+        System.out.println("\nThe distance of (" + lat1 + ", " +
+                lon1 + ") to (" + lat2 + ", " + lon2 + ") is " +
+                calDistance(lat1, lon1, lat2, lon2) + " km.");
     }
 
     /**
