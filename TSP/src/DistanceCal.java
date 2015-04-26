@@ -19,12 +19,12 @@ public class DistanceCal {
         String coord1, coord2;      // Store user input data.
         double lon1, lat1, lon2, lat2;
         System.out.println("Positive values express East or North, while negative values express West or South.\n");
-        System.out.print("Enter the first coordinates by longitude and latitude respectively, separate by a comma only: ");
+        System.out.print("Enter the first coordinates by latitude and longitude respectively, separate by a comma only: ");
         coord1 = read.nextLine();
         String[] tmp1 = coord1.split(",");
         lat1 = Double.parseDouble(tmp1[0]);
         lon1 = Double.parseDouble(tmp1[1]);
-        System.out.print("\nEnter the second coordinates by longitude and latitude respectively, separate by a comma only: ");
+        System.out.print("\nEnter the second coordinates by latitude and longitude respectively, separate by a comma only: ");
         coord2 = read.nextLine();
         String[] tmp2 = coord2.split(",");
         lat2 = Double.parseDouble(tmp2[0]);
