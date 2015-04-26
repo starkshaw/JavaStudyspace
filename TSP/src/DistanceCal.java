@@ -29,7 +29,7 @@ public class DistanceCal {
         String[] tmp2 = coord2.split(",");
         lat2 = Double.parseDouble(tmp2[0]);
         lon2 = Double.parseDouble(tmp2[1]);
-        System.out.println("\nThe distance of (" + lat1 + ", " +
+        System.out.println("\nThe distance from (" + lat1 + ", " +
                 lon1 + ") to (" + lat2 + ", " + lon2 + ") is " +
                 calDistance(lat1, lon1, lat2, lon2) + " km.");
     }
