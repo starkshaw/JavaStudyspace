@@ -10,6 +10,7 @@ Study Space (Java)
 **Be advised, the text file shall be stored 2 copies at the root folder of TSP and also TSP/out/production/TSP.**
 - [TextFileReading.java](TSP/src/TextFileReading.java) - Text file reading test program.
 - [DistanceCal.java](TSP/src/DistanceCal.java) - Calculate the distance based on their coordinates.
+- [map.html](TSP/map.html) - Test the Google Maps API.
 
 ### Sieve of Eratothenes
 **Note that in this folder you could learn how to deal with command argument and parse them to the program.**
