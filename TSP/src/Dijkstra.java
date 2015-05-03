@@ -1,6 +1,11 @@
 /**
  * Created by Zhenbang Xiao on 2015/5/2 0002.
  */
+
+/**
+ * This class was designated to implement Dijkstra algorithms.
+ */
+
 // Import
 
 import java.io.*;

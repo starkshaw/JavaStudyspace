@@ -1,10 +1,8 @@
 /**
- * Created by Zhenbang Xiao on 2015/4/25 0025.
- */
-
-/**
- * This class was designated to test the text file reading feature.
- *
+ * Created by Zhenbang Xiao on 2015/5/3 0003.
+ * <p>
+ * This class was the main program integrated all features.
+ * <p>
  * According to the Traveling Salesman Problem, we have a text file called "alltowns.txt"
  * which stores the Number, Name, and Coordinates according to the alphabetic order.
  */
@@ -13,8 +11,10 @@
 
 import java.io.*;
 import java.util.*;
+import java.math.*;
 
-public class TextFileReading {
+public class TSP {
+
     final static String currentPath = System.getProperty("user.dir");       // Store current path
 
     public static void main(String[] args) {
@@ -49,13 +49,39 @@ public class TextFileReading {
                 line++;
             }
             read.close();   // Close the file reader
-            // Print out all collected data
+            // Store the coordinates of towns
+            double[][] coordinates = new double[amountOfLine][2];
+            // Store origin and destination
+            String[] indexs;
+            Scanner input = new Scanner(System.in);
             for (int i = 0; i < allData.length; i++) {
-                for (int j = 0; j < allData[i].length; j++) {
-                    System.out.print(allData[i][j] + "\t");
+                for (int j = 2; j < allData[i].length; j++) {
+                    coordinates[i][j - 2] = Double.parseDouble(allData[i][j]);
+                }
+            }
+            System.out.println("\n#\tTOWN");
+            for (int i = 0; i < allData.length; i++) {
+                System.out.println((i + 1) + "\t" + allData[i][1]);
+            }
+            System.out.println("\nAccording to the collected data, there are " + amountOfLine + " towns found.");
+            System.out.print("\nEnter the index of your origin and destination, separate by a comma only: ");
+            indexs = input.nextLine().split(",");
+            System.out.println("\nCalculating the distance from " + allData[Integer.parseInt(indexs[0]) - 1][1] + " to " + allData[Integer.parseInt(indexs[1]) - 1][1] + "...");
+            // Calculations
+            System.out.println("The direct distance is " + round(
+                    DistanceCal.calDistance(
+                            coordinates[Integer.parseInt(indexs[0]) - 1][0],
+                            coordinates[Integer.parseInt(indexs[0]) - 1][1],
+                            coordinates[Integer.parseInt(indexs[1]) - 1][0],
+                            coordinates[Integer.parseInt(indexs[1]) - 1][1]), 3) + " km.");
+            // Print out all collected data
+            /*for (int i = 0; i < coordinates.length; i++) {
+                for (int j = 0; j < coordinates[i].length; j++) {
+                    //System.out.print(allData[i][j] + "\t");
+                    System.out.print(coordinates[i][j] + "\t");
                 }
                 System.out.println();
-            }
+            }*/
         } catch (IOException ex) {      // Exception handlers
             System.out.println("Error.");
             System.err.println("An exception has been found.");
@@ -70,5 +96,19 @@ public class TextFileReading {
                 System.exit(-1);
             }
         }
+    }
+
+    /**
+     * Optimized mathematical round
+     * @param value     The value needs to be rounded.
+     * @param places    The amount of significant digit after decimal point.
+     * @return The rounded value.
+     */
+    public static double round(double value, int places) {
+        if (places < 0) throw new IllegalArgumentException();
+
+        BigDecimal bd = new BigDecimal(value);
+        bd = bd.setScale(places, RoundingMode.HALF_UP);
+        return bd.doubleValue();
     }
 }
