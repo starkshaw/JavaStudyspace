@@ -69,7 +69,6 @@ public class TSP {
             System.out.println("\nAccording to the collected data, there are " + amountOfLine + " towns found.");*/
             visited = new boolean[allData.length];      // Check if current town is visited
             nearestTown(31, coordinates, allData);
-
             //retrieveAllTowns(31, coordinates, allData);
             //findPath(31, coordinates, allData);
             //System.out.println(distance);
@@ -170,33 +169,28 @@ public class TSP {
         }*/
     }
 
-    /*public static void findPath(int indexOfOrigin, double[][] coordinates, String[][] allDataOfTown) {
+    public static void findPath(int indexOfOrigin, double[][] coordinates, String[][] allDataOfTown) {
         visited[indexOfOrigin - 1] = true;
         int amountOfVisited = 1;
         int indexOfNext = indexOfOrigin;
-        double distanceOfNext = 0.0;
+        double distanceOfNext;
         while (amountOfVisited != allDataOfTown.length) {
-            System.out.print(allDataOfTown[indexOfNext - 1][1] + " - ");
-            double[] nearest = nearestTown(indexOfNext, coordinates, allDataOfTown);
-            if (visited[(int) nearest[0] - 1] == false) {
-                indexOfNext = (int) nearest[0] - 1;
-                distanceOfNext = nearest[1];
-                System.out.println(allDataOfTown[indexOfNext - 1][1] + ": " + distanceOfNext);
-                visited[indexOfNext - 1] = true;
-                amountOfVisited++;
-            } else if (visited[(int) nearest[0] - 1] == true && visited[(int) nearest[2] - 1] == false) {
-                indexOfNext = (int) nearest[2] - 1;
-                distanceOfNext = nearest[3];
-                System.out.println(allDataOfTown[indexOfNext - 1][1] + ": " + distanceOfNext);
-                visited[indexOfNext - 1] = true;
-                amountOfVisited++;
-            } else {
-                System.out.println("\nInvalid.");
-                amountOfVisited++;
+            //System.out.print(allDataOfTown[indexOfNext - 1][1] + " - ");
+            double[][] nearest = nearestTown(indexOfNext, coordinates, allDataOfTown);
+            indexOfNext = (int) findFirstUnvisited(nearest)[0];
+            distanceOfNext = findFirstUnvisited(nearest)[1];
+            for (int i = 0; i < nearest.length; i++) {
+                for (int j = 0; j < nearest[0].length; i++) {
+                    System.out.print(nearest[i][j] + " ");
+                }
+                System.out.println();
             }
-            distance += distanceOfNext;
+            /*System.out.println(allDataOfTown[indexOfNext][1] + ": " + distanceOfNext);
+            visited[indexOfNext] = true;
+            amountOfVisited++;
+            distance += distanceOfNext;*/
         }
-    }*/
+    }
 
     /**
      * Sort the towns by the order of distance (closer to further).
@@ -208,16 +202,12 @@ public class TSP {
      */
     public static double[][] nearestTown(int indexOfOrigin, double[][] coordinates, String[][] allDataOfTown) {
         double[][] result = new double[allDataOfTown.length][2];
+        double[][] finalResult = new double[result.length - 1][2];
         double tmpIndex, tmpDistance;
         // Create distance table
         for (int i = 0; i < result.length; i++) {
-            if (i != indexOfOrigin - 1) {
-                result[i][0] = i;
-                result[i][1] = CalDistanceByIndex(indexOfOrigin, i + 1, coordinates);
-            } else {
-                result[i][0] = i;
-                result[i][1] = 0;
-            }
+            result[i][0] = i;
+            result[i][1] = CalDistanceByIndex(indexOfOrigin, i + 1, coordinates);
         }
         // Test data
         /*for (int i = 0; i < result.length; i++) {
@@ -236,13 +226,43 @@ public class TSP {
             }
         }
         // Test data
-        for (int i = 0; i < result.length; i++) {
-            //System.out.println(result[i][0] + "\t" + result[i][1]);
-            System.out.println(allDataOfTown[indexOfOrigin - 1][1] + " ~ " + allDataOfTown[(int) result[i][0]][1] + ":\t" + result[i][1]);
+        /*for (int i = 0; i < result.length; i++) {
+            System.out.println(result[i][0] + "\t" + result[i][1]);
+            //System.out.println(allDataOfTown[indexOfOrigin - 1][1] + " ~ " + allDataOfTown[(int) result[i][0]][1] + ":\t" + result[i][1]);
+        }*/
+        for (int i = 1; i < result.length; i++) {
+            finalResult[i - 1][0] = result[i][0];
+            finalResult[i - 1][1] = result[i][1];
+        }
+        // Test data
+        for (int i = 0; i < finalResult.length; i++) {
+            //System.out.println(finalResult[i][0] + "\t" + finalResult[i][1]);
+            System.out.println(allDataOfTown[indexOfOrigin - 1][1] + " ~ " + allDataOfTown[(int) finalResult[i][0]][1] + ":\t" + finalResult[i][1]);
+        }
+        return finalResult;
+    }
+
+    public static double[] findFirstUnvisited(double[][] sortedList) {
+        double result[] = new double[2];
+        for (int i = 1; i < sortedList.length; i++) {
+            if (visited[(int) sortedList[i][0]] == false) {
+                result[0] = sortedList[i][0];
+                result[1] = sortedList[i][1];
+            } else {
+                result[0] = 0;
+                result[1] = 0;
+            }
         }
         return result;
     }
 
+    /**
+     * Calculate the distance in terms of the index in the database
+     * @param index1        Index of the first town.
+     * @param index2        Index of the second town.
+     * @param coordinates   The array consists coordinates.
+     * @return              The distance.
+     */
     public static double CalDistanceByIndex(int index1, int index2, double[][] coordinates) {
         return DistanceCal.calDistance(
                 coordinates[index1 - 1][0],
