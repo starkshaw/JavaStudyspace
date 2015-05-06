@@ -62,34 +62,17 @@ public class TSP {
                     coordinates[i][j - 2] = Double.parseDouble(allData[i][j]);
                 }
             }
+            visited = new boolean[allData.length];      // Check if current town is visited
+            for (boolean var : visited) {
+                var = false;
+            }
             /*System.out.println("\n#\tTOWN");
             for (int i = 0; i < allData.length; i++) {
                 System.out.println((i + 1) + "\t" + allData[i][1]);
-            }
-            System.out.println("\nAccording to the collected data, there are " + amountOfLine + " towns found.");*/
-            visited = new boolean[allData.length];      // Check if current town is visited
-            nearestTown(31, coordinates, allData);
-            //retrieveAllTowns(31, coordinates, allData);
-            //findPath(31, coordinates, allData);
-            //System.out.println(distance);
-            /*System.out.print("\nEnter the index of your origin and destination, separate by a comma only: ");
-            indexs = input.nextLine().split(",");
-            System.out.println("\nCalculating the distance from " + allData[Integer.parseInt(indexs[0]) - 1][1] + " to " + allData[Integer.parseInt(indexs[1]) - 1][1] + "...");
-            // Calculations
-            System.out.println("The direct distance is " + round(
-                    DistanceCal.calDistance(
-                            coordinates[Integer.parseInt(indexs[0]) - 1][0],
-                            coordinates[Integer.parseInt(indexs[0]) - 1][1],
-                            coordinates[Integer.parseInt(indexs[1]) - 1][0],
-                            coordinates[Integer.parseInt(indexs[1]) - 1][1]), 3) + " km.");*/
-            // Print out all collected data
-            /*for (int i = 0; i < coordinates.length; i++) {
-                for (int j = 0; j < coordinates[i].length; j++) {
-                    //System.out.print(allData[i][j] + "\t");
-                    System.out.print(coordinates[i][j] + "\t");
-                }
-                System.out.println();
             }*/
+            System.out.println("\nAccording to the collected data, there are " + amountOfLine + " positions found.\n");
+            findPath(31, coordinates, allData);
+            System.out.println("\nTotal distance: " + distance);
         } catch (IOException ex) {      // Exception handlers
             System.out.println("Error.");
             System.err.println("An exception has been found.");
@@ -121,74 +104,20 @@ public class TSP {
         return bd.doubleValue();
     }
 
-    public static void retrieveAllTowns(int indexOfOrigin, double[][] coordinates, String[][] allDataOfTown) {
-        /*System.out.print(allDataOfTown[indexOfOrigin - 1][1] + " ~ ");
-        if(visited[indexOfOrigin-1] == false){
-            visited[indexOfOrigin-1]=true;
-            distance += nearestTown(indexOfOrigin,coordinates,allDataOfTown)[1];
-            int currentTown = (int)nearestTown(indexOfOrigin,coordinates,allDataOfTown)[0];
-            retrieveAllTowns(currentTown-1,coordinates,allDataOfTown);
-        } else {
-
-        }*/
-
-        /*visited[indexOfOrigin - 1] = true;
-        int visitedTown = 1;      // The amount of visited city
-        int indexOfNearestTown = indexOfOrigin;
-        double distanceOfNearestTown;
-        double sum = 0.0;
-        while (visitedTown != visited.length) {
-            System.out.print(allDataOfTown[indexOfNearestTown - 1][1] + " ~ ");
-            if (indexOfNearestTown == indexOfOrigin || visited[indexOfNearestTown - 1] == false) {
-                indexOfNearestTown = (int) nearestTown(indexOfNearestTown, coordinates, allDataOfTown)[0];
-                distanceOfNearestTown = nearestTown(indexOfNearestTown, coordinates, allDataOfTown)[1];
-                System.out.println((allDataOfTown[indexOfNearestTown - 1][1] + "\t" + distanceOfNearestTown));
-                sum += distanceOfNearestTown;
-                visited[indexOfNearestTown - 1] = true;
-                visitedTown++;
-            } else if (indexOfNearestTown != indexOfOrigin && visited[indexOfNearestTown - 1] == true) {
-                indexOfNearestTown = (int) nearestTown(indexOfNearestTown, coordinates, allDataOfTown)[2];
-                distanceOfNearestTown = nearestTown(indexOfNearestTown, coordinates, allDataOfTown)[3];
-                System.out.println((allDataOfTown[indexOfNearestTown - 1][1] + "\t" + distanceOfNearestTown));
-                sum += distanceOfNearestTown;
-                visited[indexOfNearestTown - 1] = true;
-                visitedTown++;
-            }
-        }
-        System.out.println(sum);*/
-        /*for(int i = 0; i<allDataOfTown.length;i++){
-            if(i!=indexOfOrigin-1){
-                System.out.println("Distance from " + allDataOfTown[indexOfOrigin-1][1] + " to " + allDataOfTown[i][1] +
-                " is " + round(DistanceCal.calDistance(
-                        coordinates[indexOfOrigin-1][0],
-                        coordinates[indexOfOrigin-1][1],
-                        coordinates[i][0],
-                        coordinates[i][1]),3) + " km."
-                );
-            }
-        }*/
-    }
-
     public static void findPath(int indexOfOrigin, double[][] coordinates, String[][] allDataOfTown) {
+        int indexOfNext = indexOfOrigin - 1;
         visited[indexOfOrigin - 1] = true;
-        int amountOfVisited = 1;
-        int indexOfNext = indexOfOrigin;
         double distanceOfNext;
-        while (amountOfVisited != allDataOfTown.length) {
-            //System.out.print(allDataOfTown[indexOfNext - 1][1] + " - ");
-            double[][] nearest = nearestTown(indexOfNext, coordinates, allDataOfTown);
-            indexOfNext = (int) findFirstUnvisited(nearest)[0];
-            distanceOfNext = findFirstUnvisited(nearest)[1];
-            for (int i = 0; i < nearest.length; i++) {
-                for (int j = 0; j < nearest[0].length; i++) {
-                    System.out.print(nearest[i][j] + " ");
-                }
-                System.out.println();
-            }
-            /*System.out.println(allDataOfTown[indexOfNext][1] + ": " + distanceOfNext);
+        for (int i = 0; i < allDataOfTown.length; i++) {
+            System.out.print(allDataOfTown[indexOfNext][1] + " ~ ");
+            //System.out.print(allDataOfTown[indexOfNext][0] + ".");
+            double[][] nearest = nearestTown(indexOfNext + 1, coordinates, allDataOfTown);
+            double[] result = findFirstUnvisited(nearest);
+            indexOfNext = (int) result[0];
+            distanceOfNext = result[1];
+            System.out.println(allDataOfTown[indexOfNext][1] + ": " + distanceOfNext);
+            distance += distanceOfNext;
             visited[indexOfNext] = true;
-            amountOfVisited++;
-            distance += distanceOfNext;*/
         }
     }
 
@@ -235,19 +164,20 @@ public class TSP {
             finalResult[i - 1][1] = result[i][1];
         }
         // Test data
-        for (int i = 0; i < finalResult.length; i++) {
+        /*for (int i = 0; i < finalResult.length; i++) {
             //System.out.println(finalResult[i][0] + "\t" + finalResult[i][1]);
             System.out.println(allDataOfTown[indexOfOrigin - 1][1] + " ~ " + allDataOfTown[(int) finalResult[i][0]][1] + ":\t" + finalResult[i][1]);
-        }
+        }*/
         return finalResult;
     }
 
     public static double[] findFirstUnvisited(double[][] sortedList) {
         double result[] = new double[2];
-        for (int i = 1; i < sortedList.length; i++) {
+        for (int i = 0; i < sortedList.length; i++) {
             if (visited[(int) sortedList[i][0]] == false) {
                 result[0] = sortedList[i][0];
                 result[1] = sortedList[i][1];
+                break;
             } else {
                 result[0] = 0;
                 result[1] = 0;
@@ -258,10 +188,11 @@ public class TSP {
 
     /**
      * Calculate the distance in terms of the index in the database
-     * @param index1        Index of the first town.
-     * @param index2        Index of the second town.
-     * @param coordinates   The array consists coordinates.
-     * @return              The distance.
+     *
+     * @param index1      Index of the first town.
+     * @param index2      Index of the second town.
+     * @param coordinates The array consists coordinates.
+     * @return The distance.
      */
     public static double CalDistanceByIndex(int index1, int index2, double[][] coordinates) {
         return DistanceCal.calDistance(
