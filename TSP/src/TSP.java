@@ -108,7 +108,7 @@ public class TSP {
         int indexOfNext = indexOfOrigin - 1;
         visited[indexOfOrigin - 1] = true;
         double distanceOfNext;
-        for (int i = 0; i < allDataOfTown.length; i++) {
+        for (int i = 0; i < allDataOfTown.length - 1; i++) {
             System.out.print(allDataOfTown[indexOfNext][1] + " ~ ");
             //System.out.print(allDataOfTown[indexOfNext][0] + ".");
             double[][] nearest = nearestTown(indexOfNext + 1, coordinates, allDataOfTown);
