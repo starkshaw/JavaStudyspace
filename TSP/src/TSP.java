@@ -63,6 +63,7 @@ public class TSP {
                 }
             }
             visited = new boolean[allData.length];      // Check if current town is visited
+            // Initialize the array
             for (boolean var : visited) {
                 var = false;
             }
@@ -72,7 +73,7 @@ public class TSP {
             }*/
             System.out.println("\nAccording to the collected data, there are " + amountOfLine + " positions found.\n");
             findPath(31, coordinates, allData);
-            System.out.println("\nTotal distance: " + distance);
+            System.out.println("\nTotal distance: " + round(distance,3) + " km");
         } catch (IOException ex) {      // Exception handlers
             System.out.println("Error.");
             System.err.println("An exception has been found.");
@@ -110,15 +111,16 @@ public class TSP {
         double distanceOfNext;
         for (int i = 0; i < allDataOfTown.length - 1; i++) {
             System.out.print(allDataOfTown[indexOfNext][1] + " ~ ");
-            //System.out.print(allDataOfTown[indexOfNext][0] + ".");
+            //System.out.print(allDataOfTown[indexOfNext][0] + ".");  // Output for airport problem
             double[][] nearest = nearestTown(indexOfNext + 1, coordinates, allDataOfTown);
             double[] result = findFirstUnvisited(nearest);
             indexOfNext = (int) result[0];
             distanceOfNext = result[1];
-            System.out.println(allDataOfTown[indexOfNext][1] + ": " + distanceOfNext);
+            System.out.println(allDataOfTown[indexOfNext][1] + ": " + round(distanceOfNext, 3) + " km");
             distance += distanceOfNext;
             visited[indexOfNext] = true;
         }
+        //System.out.println(indexOfNext + 1);  // Output for airport problem
     }
 
     /**
