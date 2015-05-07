@@ -17,14 +17,11 @@ public class TSP {
 
     public final static String currentPath = System.getProperty("user.dir");       // Store current path
 
-    public static boolean[] visited;
-    public static double distance = 0.0;
-
     public static void main(String[] args) {
         BufferedReader preread = null;     // Pre-read the line and column from the file
         try {
             System.out.print("Loading... ");
-            File filename = new File(currentPath + "//alltowns.txt");
+            File filename = new File(currentPath + "//1000airports.txt");
             preread = new BufferedReader(new FileReader(filename));
             System.out.println("Finished.");
             // Store and separate data for further use
@@ -62,18 +59,15 @@ public class TSP {
                     coordinates[i][j - 2] = Double.parseDouble(allData[i][j]);
                 }
             }
-            visited = new boolean[allData.length];      // Check if current town is visited
-            // Initialize the array
-            for (boolean var : visited) {
-                var = false;
-            }
             /*System.out.println("\n#\tTOWN");
             for (int i = 0; i < allData.length; i++) {
                 System.out.println((i + 1) + "\t" + allData[i][1]);
             }*/
             System.out.println("\nAccording to the collected data, there are " + amountOfLine + " positions found.\n");
-            findPath(31, coordinates, allData);
-            System.out.println("\nTotal distance: " + round(distance,3) + " km");
+            double[] shortest = findShortestOverall(coordinates, allData);
+            System.out.println("\nStart from " + allData[(int) shortest[0]][1] + "\n");
+            double distance = findPath((int) shortest[0] + 1, coordinates, allData);
+            System.out.println("Total distance: " + round(distance, 3) + " km");
         } catch (IOException ex) {      // Exception handlers
             System.out.println("Error.");
             System.err.println("An exception has been found.");
@@ -105,22 +99,37 @@ public class TSP {
         return bd.doubleValue();
     }
 
-    public static void findPath(int indexOfOrigin, double[][] coordinates, String[][] allDataOfTown) {
+    /**
+     * Find the path using Heuristic Approximation Algorithm.
+     *
+     * @param indexOfOrigin The index of origin
+     * @param coordinates   The coordinate table.
+     * @param allDataOfTown The array stores index, town name, etc.
+     */
+    public static double findPath(int indexOfOrigin, double[][] coordinates, String[][] allDataOfTown) {
+        boolean[] visited;
+        visited = new boolean[allDataOfTown.length];      // Check if current town is visited
+        // Initialize the array
+        for (boolean var : visited) {
+            var = false;
+        }
+        double distance = 0.0;
         int indexOfNext = indexOfOrigin - 1;
         visited[indexOfOrigin - 1] = true;
         double distanceOfNext;
         for (int i = 0; i < allDataOfTown.length - 1; i++) {
-            System.out.print(allDataOfTown[indexOfNext][1] + " ~ ");
+            //System.out.print(allDataOfTown[indexOfNext][1] + " ~ ");
             //System.out.print(allDataOfTown[indexOfNext][0] + ".");  // Output for airport problem
             double[][] nearest = nearestTown(indexOfNext + 1, coordinates, allDataOfTown);
-            double[] result = findFirstUnvisited(nearest);
+            double[] result = findFirstUnvisited(nearest, visited);
             indexOfNext = (int) result[0];
             distanceOfNext = result[1];
-            System.out.println(allDataOfTown[indexOfNext][1] + ": " + round(distanceOfNext, 3) + " km");
+            //System.out.println(allDataOfTown[indexOfNext][1] + ": " + round(distanceOfNext, 3) + " km");
             distance += distanceOfNext;
             visited[indexOfNext] = true;
         }
         //System.out.println(indexOfNext + 1);  // Output for airport problem
+        return distance;
     }
 
     /**
@@ -173,7 +182,13 @@ public class TSP {
         return finalResult;
     }
 
-    public static double[] findFirstUnvisited(double[][] sortedList) {
+    /**
+     * Find the first (shortest) unvisited position in terms of sorted list and visited boolean array.
+     *
+     * @param sortedList Sorted list in terms of a certain position.
+     * @return The first unvisited position. [0] is the index, [1] is the distance.
+     */
+    public static double[] findFirstUnvisited(double[][] sortedList, boolean[] visited) {
         double result[] = new double[2];
         for (int i = 0; i < sortedList.length; i++) {
             if (visited[(int) sortedList[i][0]] == false) {
@@ -202,5 +217,23 @@ public class TSP {
                 coordinates[index1 - 1][1],
                 coordinates[index2 - 1][0],
                 coordinates[index2 - 1][1]);
+    }
+
+    public static double[] findShortestOverall(double[][] coordinates, String[][] allDataOfTown) {
+        double[] finalResult = new double[2];
+        double[] result = new double[allDataOfTown.length];
+        finalResult[0] = 0.0;
+        finalResult[1] = Integer.MAX_VALUE;
+        for (int i = 0; i < allDataOfTown.length; i++) {
+            result[i] = findPath(i + 1, coordinates, allDataOfTown);
+            System.out.println("Searching on " + (i + 1) + " (" + allDataOfTown[i][1] + "): " + round(result[i], 3) + " km");
+        }
+        for (int i = 0; i < result.length; i++) {
+            if (finalResult[1] > result[i]) {
+                finalResult[1] = result[i];
+                finalResult[0] = i;
+            }
+        }
+        return finalResult;
     }
 }
