@@ -52,8 +52,8 @@ public class TSP {
             // Store the coordinates of towns
             double[][] coordinates = new double[amountOfLine][2];
             // Store origin and destination
-            String[] indexs;
-            Scanner input = new Scanner(System.in);
+            //String[] index;
+            //Scanner input = new Scanner(System.in);
             for (int i = 0; i < allData.length; i++) {
                 for (int j = 2; j < allData[i].length; j++) {
                     coordinates[i][j - 2] = Double.parseDouble(allData[i][j]);

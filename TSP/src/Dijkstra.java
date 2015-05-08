@@ -13,18 +13,20 @@ import java.util.*;
 
 public class Dijkstra {
     private static final Graph.Edge[] GRAPH = {
-            new Graph.Edge("a", "b", 7),
-            new Graph.Edge("a", "c", 9),
-            new Graph.Edge("a", "f", 14),
-            new Graph.Edge("b", "c", 10),
-            new Graph.Edge("b", "d", 15),
-            new Graph.Edge("c", "d", 11),
+            new Graph.Edge("a", "b", 3),
+            new Graph.Edge("a", "c", 6),
+            new Graph.Edge("d", "h", 7),
+            new Graph.Edge("f", "h", 9),
+            new Graph.Edge("b", "d", 9),
+            new Graph.Edge("c", "d", 5),
             new Graph.Edge("c", "f", 2),
             new Graph.Edge("d", "e", 6),
-            new Graph.Edge("e", "f", 9),
+            new Graph.Edge("d", "f", 8),
+            new Graph.Edge("e", "g", 4),
+            new Graph.Edge("h", "g", 8),
     };
     private static final String START = "a";
-    private static final String END = "e";
+    private static final String END = "g";
 
     public static void main(String[] args) {
         Graph g = new Graph(GRAPH);
