@@ -1,0 +1,1008 @@
+Loading... Finished.
+
+According to the collected data, there are 1000 positions found.
+
+Searching on 1 (SARH): 369708.547 km
+Searching on 2 (MORON): 366788.622 km
+Searching on 3 (SAN ANGELO): 364850.472 km
+Searching on 4 (BARRANQUILLA): 361689.918 km
+Searching on 5 (YAKUTSK): 368662.676 km
+Searching on 6 (PARCHIM): 361313.518 km
+Searching on 7 (CHOSMADAL): 368445.098 km
+Searching on 8 (SONGKHLA): 360877.17 km
+Searching on 9 (HUAMBO): 358229.416 km
+Searching on 10 (MINOT): 365814.612 km
+Searching on 11 (FORMOSA): 360519.656 km
+Searching on 12 (ZINDER): 357981.027 km
+Searching on 13 (OSCODA): 369362.366 km
+Searching on 14 (HIERRO): 370713.301 km
+Searching on 15 (RESISTENCIA): 360489.678 km
+Searching on 16 (RIBERALTA): 360717.092 km
+Searching on 17 (COIMBATORE): 358406.277 km
+Searching on 18 (TERBELA): 354751.674 km
+Searching on 19 (COTTBUS): 360977.68 km
+Searching on 20 (PAILTON): 358978.424 km
+Searching on 21 (VILLAHERMOSA): 358789.946 km
+Searching on 22 (KAILASHAHAR): 362545.314 km
+Searching on 23 (YANGKU): 368549.368 km
+Searching on 24 (BANDAR LENGEH): 360207.129 km
+Searching on 25 (TAUNGOO): 358789.022 km
+Searching on 26 (JOSE C. PAZ): 366806.023 km
+Searching on 27 (NANISIVIK): 366525.404 km
+Searching on 28 (FORT RESOLUTION): 360680.171 km
+Searching on 29 (MEMPHIS): 365334.073 km
+Searching on 30 (SCHOENHAGEN): 358714.843 km
+Searching on 31 (PORTAGE-LA-PRAIRIE): 364629.73 km
+Searching on 32 (KULUSUK): 363551.594 km
+Searching on 33 (CHILE CHICO): 368586.408 km
+Searching on 34 (SAN RAFAEL): 366566.119 km
+Searching on 35 (NANKI-SHIRAHAMA): 367717.138 km
+Searching on 36 (CHITA): 353952.768 km
+Searching on 37 (NEW BERN): 362232.762 km
+Searching on 38 (IASI): 371061.94 km
+Searching on 39 (JAMBI): 355188.662 km
+Searching on 40 (CATAMARCA): 366308.761 km
+Searching on 41 (IBERIA): 359757.499 km
+Searching on 42 (ABBOTSFORD): 364712.175 km
+Searching on 43 (NOUMEA): 370163.75 km
+Searching on 44 (VERDUN): 357468.511 km
+Searching on 45 (ACCRA): 359422.047 km
+Searching on 46 (MAWLAMYINE): 362232.399 km
+Searching on 47 (HOMER): 360452.418 km
+Searching on 48 (ZANJAN): 357961.407 km
+Searching on 49 (ABU DHABI): 352397.816 km
+Searching on 50 (AVALON): 362261.7 km
+Searching on 51 (SZOLNOK): 361854.6 km
+Searching on 52 (CHIREDZI): 350986.974 km
+Searching on 53 (BEQUIA): 359711.263 km
+Searching on 54 (CONROE): 362884.658 km
+Searching on 55 (VANNES): 370999.991 km
+Searching on 56 (JALALABAD): 354659.636 km
+Searching on 57 (RIO CUARTO): 360302.559 km
+Searching on 58 (CATARMAN): 357743.881 km
+Searching on 59 (PORTOROZ): 368627.562 km
+Searching on 60 (MOUNT COOK): 355694.796 km
+Searching on 61 (AKRON): 369416.648 km
+Searching on 62 (TORREON): 358699.752 km
+Searching on 63 (KIRTLAND A.F.B.): 365514.347 km
+Searching on 64 (KOSZALIN): 358195.114 km
+Searching on 65 (TAURA): 360975.687 km
+Searching on 66 (POINTE-NOIRE): 365537.227 km
+Searching on 67 (BAUMHOLDER): 357603.348 km
+Searching on 68 (CHATEAUDUN): 357371.02 km
+Searching on 69 (LAREDO): 359560.419 km
+Searching on 70 (MARISCAL ESTIGARRIBIA): 363530.414 km
+Searching on 71 (BOCAS DEL TORO): 361874.53 km
+Searching on 72 (BREST): 370937.119 km
+Searching on 73 (DONETSK): 371710.817 km
+Searching on 74 (ANKARA): 358314.721 km
+Searching on 75 (PONTIANAK): 356775.665 km
+Searching on 76 (MINAMI DAITO): 359609.532 km
+Searching on 77 (KYAUKPYU): 361889.974 km
+Searching on 78 (BAHIA SOLANO): 361813.578 km
+Searching on 79 (FLORIDABLANCA): 358569.629 km
+Searching on 80 (ATLANTIC CITY): 358411.513 km
+Searching on 81 (KARONGA): 358768.525 km
+Searching on 82 (XICHANG): 361379.559 km
+Searching on 83 (RIO GRANDE): 366705.656 km
+Searching on 84 (KOTA): 355535.577 km
+Searching on 85 (THUNDER BAY): 364736.812 km
+Searching on 86 (BOUAKE): 360405.557 km
+Searching on 87 (PYHASALMI): 359919.836 km
+Searching on 88 (TOULOUSE): 369394.553 km
+Searching on 89 (TSUIKI): 368186.34 km
+Searching on 90 (RAJAHMUNDRY): 358945.55 km
+Searching on 91 (MUIR): 369573.625 km
+Searching on 92 (SWIFT CURRENT): 354560.317 km
+Searching on 93 (MOUNT CLEMENS): 370459.298 km
+Searching on 94 (LAKENHEATH): 351578.407 km
+Searching on 95 (TASZAR): 356823.34 km
+Searching on 96 (OPTAND): 360326.32 km
+Searching on 97 (SANTIAGO): 362057.104 km
+Searching on 98 (WAIKABUBAK): 359970.556 km
+Searching on 99 (KANPUR): 358773.996 km
+Searching on 100 (NGERENGERE): 358402.689 km
+Searching on 101 (IPOH): 360982.303 km
+Searching on 102 (MALTA): 364002.64 km
+Searching on 103 (REAO): 366379.885 km
+Searching on 104 (GIEBELSTADT): 358301.209 km
+Searching on 105 (TERNATE): 358808.936 km
+Searching on 106 (PORT SAID): 352517.961 km
+Searching on 107 (ST.-DIZIER): 357259.797 km
+Searching on 108 (AUBENAS-VALS-LANAS): 357766.87 km
+Searching on 109 (SETIF): 360535.331 km
+Searching on 110 (NYALA): 357541.156 km
+Searching on 111 (MUEDA): 358012.277 km
+Searching on 112 (LA COLOMA): 367939.138 km
+Searching on 113 (COYHAIQUE): 368531.345 km
+Searching on 114 (TIN CITY): 357505.064 km
+Searching on 115 (CARCASSONNE): 369095.528 km
+Searching on 116 (ANDROS TOWN): 361472.214 km
+Searching on 117 (SANTIAGO): 366623.508 km
+Searching on 118 (ORANJESTAD): 360011.256 km
+Searching on 119 (PRESQUE ISLE): 370193.096 km
+Searching on 120 (WRIGHT): 357307.75 km
+Searching on 121 (PIETERSBURG): 358367.519 km
+Searching on 122 (BOSCOMBE DOWN): 358874.135 km
+Searching on 123 (TESLIN): 356053.994 km
+Searching on 124 (AJACCIO): 360866.826 km
+Searching on 125 (PIRACUNUNGA): 365155.434 km
+Searching on 126 (OMBOUE HOSPIAL): 352977.03 km
+Searching on 127 (OSH): 353435.114 km
+Searching on 128 (CUZCO): 360267.811 km
+Searching on 129 (MARACAIBO): 360725.748 km
+Searching on 130 (BRIVE): 359042.663 km
+Searching on 131 (WHITECOURT): 361734.466 km
+Searching on 132 (SIDI BEL ABBES): 360817.842 km
+Searching on 133 (EGELSBACH): 370314.169 km
+Searching on 134 (TUMACO): 362053.727 km
+Searching on 135 (SUMBURGH): 357363.843 km
+Searching on 136 (MALABO): 360025.143 km
+Searching on 137 (KOSICE): 361793.693 km
+Searching on 138 (IWOJIMA): 358683.436 km
+Searching on 139 (AURILLAC): 359035.585 km
+Searching on 140 (ST. CRIOX ISLAND): 360085.319 km
+Searching on 141 (ALAMOGORDO): 357853.702 km
+Searching on 142 (CAUAYAN): 358365.363 km
+Searching on 143 (HASSFURT): 358171.346 km
+Searching on 144 (ZANZIBAR): 358393.299 km
+Searching on 145 (LANZHOU): 360146.346 km
+Searching on 146 (BEIJING): 366406.934 km
+Searching on 147 (ST. PETERSBURG): 360344.381 km
+Searching on 148 (GRACIOSA ISLAND): 363116.402 km
+Searching on 149 (SULAYEL): 367656.761 km
+Searching on 150 (PADANG SIDEMPUAN): 355787.585 km
+Searching on 151 (BAMBERG): 358117.507 km
+Searching on 152 (LANVEDOC): 371394.934 km
+Searching on 153 (YUMA): 356923.057 km
+Searching on 154 (GWALIOR): 359207.598 km
+Searching on 155 (POINT BARROW): 362525.081 km
+Searching on 156 (YOLA): 359024.16 km
+Searching on 157 (LUBUMASHI): 362373.585 km
+Searching on 158 (SAVANNAH): 357296.076 km
+Searching on 159 (OYEM): 366488.118 km
+Searching on 160 (JORHAT): 357883.664 km
+Searching on 161 (GUAYANA): 360112.405 km
+Searching on 162 (STENDAL): 361606.741 km
+Searching on 163 (DILLINGHAM): 357830.983 km
+Searching on 164 (TANAGRA): 369875.648 km
+Searching on 165 (GREENWOOD): 369909.818 km
+Searching on 166 (SANTO DOMINGO): 361847.107 km
+Searching on 167 (GUASDUALITO): 360269.334 km
+Searching on 168 (VESOUL-FROTEY): 357372.918 km
+Searching on 169 (KAVALA): 358259.114 km
+Searching on 170 (VISBY): 356723.343 km
+Searching on 171 (WATERFORD): 359284.039 km
+Searching on 172 (DAKAR): 363806.197 km
+Searching on 173 (SAN DIEGO): 368798.937 km
+Searching on 174 (BRATISLAVA): 361545.722 km
+Searching on 175 (TZANEEN): 358415.488 km
+Searching on 176 (KITADAITO): 359612.932 km
+Searching on 177 (ZUTENDAAL): 358356.935 km
+Searching on 178 (MERAUKE): 357698.853 km
+Searching on 179 (RAYONG): 357931.18 km
+Searching on 180 (ARBOGA): 359359.435 km
+Searching on 181 (ACAPULCO): 368652.649 km
+Searching on 182 (SMITHFIELD): 358872.406 km
+Searching on 183 (HALLI): 360022.731 km
+Searching on 184 (AOMORI): 357443.764 km
+Searching on 185 (NELSON): 356192.465 km
+Searching on 186 (LOMPOC): 359788.696 km
+Searching on 187 (BAREILLY): 358768.499 km
+Searching on 188 (OSAN): 368669.254 km
+Searching on 189 (CARLETONVILLE): 357276.211 km
+Searching on 190 (MASTERTON): 356203.745 km
+Searching on 191 (HASSLOSA): 359486.463 km
+Searching on 192 (COMOX): 362173.318 km
+Searching on 193 (OUVEA): 370243.995 km
+Searching on 194 (ROME): 358644.206 km
+Searching on 195 (HOEDSPRUIT): 361359.674 km
+Searching on 196 (FLORENCIA): 360945.491 km
+Searching on 197 (ALBURY): 362568.291 km
+Searching on 198 (TERMEZ): 360313.945 km
+Searching on 199 (NEMA): 370517.535 km
+Searching on 200 (URALSK): 356466.263 km
+Searching on 201 (KOSTA): 359777.209 km
+Searching on 202 (CHAITEN): 359840.974 km
+Searching on 203 (FORT SIMPSON): 361610.928 km
+Searching on 204 (INDIAN MOUNTAINS): 365814.21 km
+Searching on 205 (ISHURDI): 362424.328 km
+Searching on 206 (MANDERA): 352117.736 km
+Searching on 207 (OWANDO): 360005.247 km
+Searching on 208 (MANDALAY): 362256.55 km
+Searching on 209 (KOMPONG CHNANG): 358707.96 km
+Searching on 210 (PESHAWAR): 355902.24 km
+Searching on 211 (TOKUNOSHIMA): 368402.101 km
+Searching on 212 (CARRIZAL): 362149.492 km
+Searching on 213 (BRETIGNY-SUR-ORGE): 358329.439 km
+Searching on 214 (WALLIS): 368531.409 km
+Searching on 215 (NANDI): 369352.905 km
+Searching on 216 (SAURIMO): 358227.347 km
+Searching on 217 (LARNACA): 359659.631 km
+Searching on 218 (NAPLES): 360894.885 km
+Searching on 219 (WEST TINIAN): 357422.488 km
+Searching on 220 (GHADAMES): 359859.072 km
+Searching on 221 (GOBERNADOR GORDILLO): 366483.198 km
+Searching on 222 (LITTLE ROCK): 369410.484 km
+Searching on 223 (GENOA): 360326.794 km
+Searching on 224 (OIOIAPOQUE): 365903.081 km
+Searching on 225 (NAHA): 368370.401 km
+Searching on 226 (SAN LUIS): 366357.727 km
+Searching on 227 (BERLIN): 358707.172 km
+Searching on 228 (ZADAR): 358728.554 km
+Searching on 229 (BREMEN): 361710.598 km
+Searching on 230 (TAMALE): 357846.664 km
+Searching on 231 (PONTIVY): 370987.699 km
+Searching on 232 (PANJGUR): 351865.121 km
+Searching on 233 (MANIHI): 368653.287 km
+Searching on 234 (KRASNODAR): 357697.2 km
+Searching on 235 (TSUSHIMA): 367945.597 km
+Searching on 236 (SIGUANEA): 361796.016 km
+Searching on 237 (ORAN): 360767.835 km
+Searching on 238 (STRATFORD): 358777.983 km
+Searching on 239 (MANANARA): 357796.401 km
+Searching on 240 (PUCALLPA): 361124.864 km
+Searching on 241 (PISCO): 360166.648 km
+Searching on 242 (PILANESBERG): 357912.777 km
+Searching on 243 (LAS HERAS): 368333.479 km
+Searching on 244 (ALPHONSE): 358555.64 km
+Searching on 245 (VERMILLION): 366075.494 km
+Searching on 246 (IZMIR): 370255.236 km
+Searching on 247 (NECOCHEA): 358947.483 km
+Searching on 248 (GREENWOOD): 365120.497 km
+Searching on 249 (LE CASTELLET): 357888.715 km
+Searching on 250 (GUERNSEY): 371087.971 km
+Searching on 251 (TIVAT): 363015.059 km
+Searching on 252 (SALVADOR): 366721.503 km
+Searching on 253 (FUZHOU): 360515.374 km
+Searching on 254 (BODOE): 355459.361 km
+Searching on 255 (ARICA): 363259.726 km
+Searching on 256 (OLIKTOK POINT): 361872.966 km
+Searching on 257 (TUSTIN): 368833.518 km
+Searching on 258 (SOCHI): 361411.385 km
+Searching on 259 (YAIZU): 357677.629 km
+Searching on 260 (PRAHA): 357002.889 km
+Searching on 261 (KAVALA): 358278.76 km
+Searching on 262 (CUENCA): 360946.965 km
+Searching on 263 (KIMHAE): 368767.885 km
+Searching on 264 (FORT LEWIS): 364571.658 km
+Searching on 265 (CULIACAN): 365312.198 km
+Searching on 266 (PULAU PIOMAN): 360780.674 km
+Searching on 267 (ANCHORAGE): 357829.678 km
+Searching on 268 (TANCOS): 372731.872 km
+Searching on 269 (TAKORADI): 366191.878 km
+Searching on 270 (HEIBRON): 357364.669 km
+Searching on 271 (KELOWNA): 364521.632 km
+Searching on 272 (ROTTERDAM): 358833.753 km
+Searching on 273 (TAINAN): 361189.507 km
+Searching on 274 (KINDU): 364013.025 km
+Searching on 275 (SINDAL): 359477.424 km
+Searching on 276 (STRASSBOURG): 361992.892 km
+Searching on 277 (PALMERSTON NORTH): 356179.984 km
+Searching on 278 (TARAPOA): 361869.628 km
+Searching on 279 (SURIN): 358149.623 km
+Searching on 280 (NIORT): 363486.79 km
+Searching on 281 (MORONDAVA): 359213.84 km
+Searching on 282 (TOTO): 353535.783 km
+Searching on 283 (TWENTY NINE PALMS): 357518.457 km
+Searching on 284 (VRYBURG): 358341.703 km
+Searching on 285 (TAIYUAN): 366238.185 km
+Searching on 286 (TANJUNG SANTAN): 349368.023 km
+Searching on 287 (BARRA DEL COLORADO): 366779.946 km
+Searching on 288 (SAN FERNANDO): 364588.087 km
+Searching on 289 (INTERNATIONAL FALLS): 369456.039 km
+Searching on 290 (YELLOWKNIFE): 360723.995 km
+Searching on 291 (SKRYDSTRUP): 359891.93 km
+Searching on 292 (VARKAUS): 355870.706 km
+Searching on 293 (PETROLINE 3): 352342.268 km
+Searching on 294 (PASNI): 359569.823 km
+Searching on 295 (HERINGSDORF): 360255.593 km
+Searching on 296 (VICHY): 358759.189 km
+Searching on 297 (KUWAIT): 352136.851 km
+Searching on 298 (MAGNETIOGORSK): 357500.773 km
+Searching on 299 (YAOUNDE): 366548.869 km
+Searching on 300 (GALWAY): 359038.767 km
+Searching on 301 (COLOMBIA): 358162.952 km
+Searching on 302 (KITHIRA): 370039.939 km
+Searching on 303 (NYUTABARU): 367431.517 km
+Searching on 304 (FIRA): 369351.592 km
+Searching on 305 (ORMARA): 359579.606 km
+Searching on 306 (LA RIOJA): 366550.728 km
+Searching on 307 (PUNTA CANA): 359998.092 km
+Searching on 308 (KRASNOVODSK): 360392.254 km
+Searching on 309 (TANGERANG): 360087.858 km
+Searching on 310 (ABADAN): 352227.242 km
+Searching on 311 (GRANADA): 359207.808 km
+Searching on 312 (PALMAR SUR): 366882.66 km
+Searching on 313 (HICKORY): 357698.245 km
+Searching on 314 (EL PASO): 365348.95 km
+Searching on 315 (TIRANA): 368691.135 km
+Searching on 316 (GURIAT): 360033.715 km
+Searching on 317 (FAYA-LARGEAU): 357269.605 km
+Searching on 318 (LA ORCHILA): 360230.13 km
+Searching on 319 (CIREBON): 357752.565 km
+Searching on 320 (TOKOL): 357347.255 km
+Searching on 321 (PADERBORN): 361722.834 km
+Searching on 322 (JESSORE): 359048.545 km
+Searching on 323 (PORTO AMBOIM): 364843.353 km
+Searching on 324 (SAARBRUECKEN): 357594.711 km
+Searching on 325 (ANADYR): 363161.519 km
+Searching on 326 (YEREVAN): 357873.479 km
+Searching on 327 (LONDRINA): 361170.27 km
+Searching on 328 (CAIBARIEN): 361990.548 km
+Searching on 329 (BETHEL): 362235.112 km
+Searching on 330 (KRAKOW): 361524.874 km
+Searching on 331 (BENIN): 359708.855 km
+Searching on 332 (AGATTI ISLAND): 360691.333 km
+Searching on 333 (FLIN FLON): 364921.628 km
+Searching on 334 (BUENAVENTURA): 361659.534 km
+Searching on 335 (TABUK): 352172.233 km
+Searching on 336 (SELANPAA): 359730.036 km
+Searching on 337 (TENERIFE): 370877.621 km
+Searching on 338 (SAN JOSE): 359911.001 km
+Searching on 339 (MANNHEIM): 357342.45 km
+Searching on 340 (PRACHIN BURI): 361336.404 km
+Searching on 341 (BRIENNE-LE CHATEAU): 357222.394 km
+Searching on 342 (HOLMAN ISLAND): 361797.053 km
+Searching on 343 (BISKRA): 364581.971 km
+Searching on 344 (TELA): 367073.036 km
+Searching on 345 (RANONG): 358766.341 km
+Searching on 346 (BOTHAVILLE): 357358.073 km
+Searching on 347 (HONG KONG): 366647.595 km
+Searching on 348 (MANICORE): 365607.714 km
+Searching on 349 (CHARLESTOWN): 359964.79 km
+Searching on 350 (SALISBURY): 369611.953 km
+Searching on 351 (UTTARADIT): 358909.376 km
+Searching on 352 (DECIMOMANNU): 360836.414 km
+Searching on 353 (WHITE PLAINS): 358747.851 km
+Searching on 354 (SION): 360682.884 km
+Searching on 355 (KANKAKEE): 364966.965 km
+Searching on 356 (ORLANDO): 360484.983 km
+Searching on 357 (NUEVO CASAS GRANDES): 365314.941 km
+Searching on 358 (GIMO): 359330.519 km
+Searching on 359 (LICHTENBURG): 358392.705 km
+Searching on 360 (STRANGNAS): 359493.031 km
+Searching on 361 (PUERTO MADRYN): 366782.901 km
+Searching on 362 (PHALSBOURG): 357569.585 km
+Searching on 363 (FAIRBANKS): 360072.534 km
+Searching on 364 (JOENSUU): 355876.739 km
+Searching on 365 (BORLANGE): 360562.065 km
+Searching on 366 (BOSTON): 358855.242 km
+Searching on 367 (KARLSRUHE): 357390.833 km
+Searching on 368 (GUIRIA): 367314.639 km
+Searching on 369 (ORIXIMINA): 367126.036 km
+Searching on 370 (LONDON): 358868.51 km
+Searching on 371 (IN SALAH): 367424.214 km
+Searching on 372 (MIRI): 360889.666 km
+Searching on 373 (LUBBOCK): 362420.581 km
+Searching on 374 (SANTA BARBARA): 357367.061 km
+Searching on 375 (MACARA): 361883.866 km
+Searching on 376 (SINGKEP): 358697.967 km
+Searching on 377 (AREQUIPA): 360125.139 km
+Searching on 378 (GLENTANNER): 355682.965 km
+Searching on 379 (PARIS): 371229.322 km
+Searching on 380 (TACOMA): 364580.523 km
+Searching on 381 (MONT-DE-MARSAN): 361218.133 km
+Searching on 382 (GAMBELLA): 360139.231 km
+Searching on 383 (BRATSK): 370212.017 km
+Searching on 384 (TALARA): 361804.209 km
+Searching on 385 (CASTILHO): 361129.467 km
+Searching on 386 (MILLINGTON): 365298.4 km
+Searching on 387 (DE AAR): 358249.706 km
+Searching on 388 (VIJAYAWADA): 358997.438 km
+Searching on 389 (HEFEI): 366933.609 km
+Searching on 390 (CABINDA): 353256.549 km
+Searching on 391 (CATANIA): 364185.589 km
+Searching on 392 (MANZINI): 358370.405 km
+Searching on 393 (PUDASJARVI): 356418.523 km
+Searching on 394 (MASJED SOLEIMAN): 361367.871 km
+Searching on 395 (JAYAPURA): 358752.82 km
+Searching on 396 (SACHS HARBOUR): 361987.174 km
+Searching on 397 (FLORENCE): 357477.205 km
+Searching on 398 (IBA): 364570.243 km
+Searching on 399 (BAGAN): 358846.408 km
+Searching on 400 (ZURICH): 372691.181 km
+Searching on 401 (ROTA): 357679.068 km
+Searching on 402 (TAHOUA): 370063.572 km
+Searching on 403 (LONDONDERRY): 358747.195 km
+Searching on 404 (KEY WEST): 362090.676 km
+Searching on 405 (GUISCRIFF-SCAER): 371008.242 km
+Searching on 406 (SURABAYA): 359172.667 km
+Searching on 407 (FORTALEZA): 365585.954 km
+Searching on 408 (BASCO): 361285.154 km
+Searching on 409 (STAVANGER): 363176.892 km
+Searching on 410 (RAPID CITY): 369420.488 km
+Searching on 411 (ADAK ISLAND): 365455.957 km
+Searching on 412 (BUSHEHR): 360289.32 km
+Searching on 413 (BISHA): 352749.807 km
+Searching on 414 (VILSHOFEN): 357191.91 km
+Searching on 415 (HIRAKUD): 360694.587 km
+Searching on 416 (BAUTZEN): 360981.522 km
+Searching on 417 (BAYREUTH): 358103.35 km
+Searching on 418 (POINT COOK): 362287.718 km
+Searching on 419 (CHIVENOR): 361239.746 km
+Searching on 420 (KORTRIJK-VEVELGEM): 371535.694 km
+Searching on 421 (ISLIP): 358747.775 km
+Searching on 422 (ILE D'YEU): 371041.279 km
+Searching on 423 (MAUBEUGE): 371553.202 km
+Searching on 424 (TALLINN-ULEMISTE INTERNATIONAL): 359459.378 km
+Searching on 425 (SANLIURFA): 357342.827 km
+Searching on 426 (LINDEN): 366035.383 km
+Searching on 427 (PORTO ALEGRE): 362036.904 km
+Searching on 428 (GROSSETO): 360933.297 km
+Searching on 429 (WARANGAL): 360642.272 km
+Searching on 430 (FORT NELSON): 361299.688 km
+Searching on 431 (BELO HORIZONTE): 364794.571 km
+Searching on 432 (CHITRAL): 355802.531 km
+Searching on 433 (QUEBEC): 370138.599 km
+Searching on 434 (AGHAJARI): 361009.062 km
+Searching on 435 (EGGENFELDEN): 357060.537 km
+Searching on 436 (MERU): 358313.606 km
+Searching on 437 (LAGOS): 366102.26 km
+Searching on 438 (SAMARINDA): 349416.911 km
+Searching on 439 (DEER LAKE): 369606.277 km
+Searching on 440 (SUCRE): 363366.758 km
+Searching on 441 (PIETERMARITZBURG): 357768.242 km
+Searching on 442 (BLUEFIELDS): 366734.287 km
+Searching on 443 (ADANA): 357887.363 km
+Searching on 444 (MEMANBETSU): 356820.065 km
+Searching on 445 (ORAN): 360776.647 km
+Searching on 446 (NAUSHKI): 351705.559 km
+Searching on 447 (PROVIDENCE): 358876.826 km
+Searching on 448 (KODIAK): 366262.607 km
+Searching on 449 (SOUTHDOWNS): 362287.529 km
+Searching on 450 (TAMUIN): 368574.312 km
+Searching on 451 (NYIRREGYHAZA): 358814.758 km
+Searching on 452 (MURCIA): 357599.265 km
+Searching on 453 (SAO NOCOLAU ISLAND): 365807.767 km
+Searching on 454 (OCHO RIOS): 361985.616 km
+Searching on 455 (HILDESHEIM): 361681.382 km
+Searching on 456 (AL AIN): 359805.682 km
+Searching on 457 (SKAGWAY): 356494.88 km
+Searching on 458 (SANTA MARIA (ISLAND)): 363456.31 km
+Searching on 459 (BRISTOL): 361343.031 km
+Searching on 460 (CORUMBA): 360243.539 km
+Searching on 461 (LARISSA): 369728.841 km
+Searching on 462 (ZIRKU): 352209.475 km
+Searching on 463 (AUTUN): 357171.496 km
+Searching on 464 (DAMASCUS): 358415.993 km
+Searching on 465 (CAMAGUEY): 362803.38 km
+Searching on 466 (SAN VINCENTE DE CAGUAN): 360847.041 km
+Searching on 467 (HARRISMITH): 357892.734 km
+Searching on 468 (DAUPHIN): 364586.748 km
+Searching on 469 (CAMBRAI): 358911.25 km
+Searching on 470 (CHIAYI): 361206.406 km
+Searching on 471 (AVIGNON): 358975.797 km
+Searching on 472 (KEMI): 355926.364 km
+Searching on 473 (WACO): 362656.59 km
+Searching on 474 (NABIRE): 359159.189 km
+Searching on 475 (CAIRNS): 362255.404 km
+Searching on 476 (MARYSVILLE): 356219.736 km
+Searching on 477 (ESSADOUIRA): 370536.083 km
+Searching on 478 (YAP): 361868.476 km
+Searching on 479 (PANDORA): 366777.169 km
+Searching on 480 (ANJOUAN): 357370.052 km
+Searching on 481 (COFF'S HARBOUR): 365067.158 km
+Searching on 482 (DAYTON): 369565.279 km
+Searching on 483 (COLONIA): 366791.933 km
+Searching on 484 (RONNEBY): 359737.985 km
+Searching on 485 (TETOUAN): 358896.551 km
+Searching on 486 (CAHORS): 359228.931 km
+Searching on 487 (FORT KNOX): 369625.663 km
+Searching on 488 (TEHERAN): 360567.085 km
+Searching on 489 (TUCURUI): 365008.152 km
+Searching on 490 (FREIBURG): 362022.419 km
+Searching on 491 (LAS VEGAS): 368961.297 km
+Searching on 492 (IVALO): 355694.485 km
+Searching on 493 (ORURO): 360519.302 km
+Searching on 494 (MARATHON): 369835.175 km
+Searching on 495 (RIVERA): 366621.155 km
+Searching on 496 (ANTALAHA): 357657.825 km
+Searching on 497 (HOLLYWOOD): 368047.433 km
+Searching on 498 (PRIBRAM): 356970.715 km
+Searching on 499 (SECUNDA): 357910.393 km
+Searching on 500 (AMMAN): 358342.619 km
+Searching on 501 (HOPSTEN): 361817.802 km
+Searching on 502 (BIRMINGHAM): 360850.1 km
+Searching on 503 (CHARLO): 369419.056 km
+Searching on 504 (NAGASAKI): 368196.523 km
+Searching on 505 (BAKU): 356012.652 km
+Searching on 506 (ORSA): 359496.851 km
+Searching on 507 (BANGALORE): 357999.486 km
+Searching on 508 (CELLE): 358925.441 km
+Searching on 509 (NIAMEY): 357899.696 km
+Searching on 510 (TRIVANDRUM): 358689.68 km
+Searching on 511 (WYTON): 351589.374 km
+Searching on 512 (CRAIOVA): 357800.746 km
+Searching on 513 (THOHOYANDOU): 358380.438 km
+Searching on 514 (POND INLET): 366737.265 km
+Searching on 515 (NAINITAL): 358586.394 km
+Searching on 516 (AVILES): 359274.18 km
+Searching on 517 (RANGIROA): 368831.798 km
+Searching on 518 (SARAJEVO): 369825.959 km
+Searching on 519 (JALAPA): 362216.223 km
+Searching on 520 (MELBOURNE): 360429.595 km
+Searching on 521 (SCHEFFERVILLE): 367896.013 km
+Searching on 522 (JAIPUR): 356181.686 km
+Searching on 523 (PONCA CITY): 363640.502 km
+Searching on 524 (BIRAO): 357525.315 km
+Searching on 525 (TRINIDAD): 362554.824 km
+Searching on 526 (EAGLE PASS): 365608.1 km
+Searching on 527 (ZARIA): 358031.658 km
+Searching on 528 (VILLA REYNOLDS): 366427.108 km
+Searching on 529 (JUANJUI): 361323.708 km
+Searching on 530 (KALININGRAD): 356336.923 km
+Searching on 531 (PORT GENTIL): 353054.435 km
+Searching on 532 (ARGYLE): 362092.652 km
+Searching on 533 (TEHUACAN): 364269.778 km
+Searching on 534 (SUHL): 360965.925 km
+Searching on 535 (MAIMAMA): 360091.24 km
+Searching on 536 (DAR ES SALAAM): 358406.606 km
+Searching on 537 (HAGFORS): 359439.632 km
+Searching on 538 (TAMPERE): 359540.889 km
+Searching on 539 (SANTIAGO): 358479.975 km
+Searching on 540 (KAUHAJOKI): 359521.222 km
+Searching on 541 (ABU DHABI): 352378.655 km
+Searching on 542 (PENANG): 361027.279 km
+Searching on 543 (SAN JULIAN): 366378.674 km
+Searching on 544 (HAMAR): 359662.642 km
+Searching on 545 (PALANGKARAYA): 355063.813 km
+Searching on 546 (MBUJI-MAYI): 353133.057 km
+Searching on 547 (N'DELE): 357301.227 km
+Searching on 548 (MARIETTA): 357322.785 km
+Searching on 549 (BHAIRAWA): 359988.162 km
+Searching on 550 (PITEA): 360291.985 km
+Searching on 551 (COIMBA): 372808.13 km
+Searching on 552 (PHILADELPHIA): 369467.482 km
+Searching on 553 (ITAITUBA): 367133.469 km
+Searching on 554 (KNOBNOSTER): 365414.075 km
+Searching on 555 (MOSCOW): 357793.128 km
+Searching on 556 (CHINMEN): 360545.252 km
+Searching on 557 (LIEGE): 358361.082 km
+Searching on 558 (VIGO): 373157.942 km
+Searching on 559 (BROUGHTON ISLAND): 365534.204 km
+Searching on 560 (MAHMOOD ABAD): 352537.115 km
+Searching on 561 (OUAGADOUGOU): 370646.678 km
+Searching on 562 (KUALA TERENGGANU): 360464.756 km
+Searching on 563 (OSLO): 359661.147 km
+Searching on 564 (KANANGA): 364032.777 km
+Searching on 565 (WEYDON): 353885.654 km
+Searching on 566 (CHAPECO): 360205.943 km
+Searching on 567 (QUERETARO): 364024.406 km
+Searching on 568 (CHEJU): 367781.002 km
+Searching on 569 (ALES): 359222.188 km
+Searching on 570 (SOKOTO): 370096.916 km
+Searching on 571 (FOZ DO IGUACU): 360925.997 km
+Searching on 572 (MONA): 358834.131 km
+Searching on 573 (KARDLA): 359356.605 km
+Searching on 574 (BACAU): 370994.138 km
+Searching on 575 (MTWARA): 357894.959 km
+Searching on 576 (CAIRO): 352373.826 km
+Searching on 577 (MONCLOVA): 359332.52 km
+Searching on 578 (VILLENEUVE-SUR-LOT): 361015.975 km
+Searching on 579 (PAKSE): 357974.6 km
+Searching on 580 (ST.-BRIEUC ARMOR): 370986.06 km
+Searching on 581 (AYOLAS): 362054.395 km
+Searching on 582 (MONTAUBAN): 369346.478 km
+Searching on 583 (OKONDJA): 360230.273 km
+Searching on 584 (ARUTUA): 368716.956 km
+Searching on 585 (BAGNOLE-DE-L'ORNE): 371189.245 km
+Searching on 586 (CAMDEN): 362722.122 km
+Searching on 587 (MWANZA): 352587.75 km
+Searching on 588 (DOUALA): 359980.267 km
+Searching on 589 (HAIL): 367320.489 km
+Searching on 590 (MOKPO): 367850.086 km
+Searching on 591 (SZCZECHIN): 360292.095 km
+Searching on 592 (BOJNORD): 360933.208 km
+Searching on 593 (ADRAR): 365017.117 km
+Searching on 594 (CHAH BAHAR): 359625.76 km
+Searching on 595 (PADANG): 359917.007 km
+Searching on 596 (CLYDE RIVER): 365896.378 km
+Searching on 597 (ROANNE): 358766.46 km
+Searching on 598 (CORDOBA): 359179.124 km
+Searching on 599 (MOROMBE): 359044.381 km
+Searching on 600 (GUARATINGUETA): 364986.194 km
+Searching on 601 (TAMANRASSET): 364822.22 km
+Searching on 602 (LE MANS): 358363.441 km
+Searching on 603 (COLEMAN): 357360.838 km
+Searching on 604 (ITAITUBA): 367512.289 km
+Searching on 605 (GAFSA): 369226.558 km
+Searching on 606 (MORLAIX): 370942.527 km
+Searching on 607 (MARAGHEH): 355551.917 km
+Searching on 608 (MECHERIA): 365832.927 km
+Searching on 609 (GRAZZANISE): 360920.999 km
+Searching on 610 (YOUNGSTOWN): 369381.731 km
+Searching on 611 (EL BOLSON): 359732.028 km
+Searching on 612 (WILLISTON): 364658.142 km
+Searching on 613 (COLOMBO): 358067.741 km
+Searching on 614 (RIOBAMBA): 360875.791 km
+Searching on 615 (ROCKHAMPTON): 361915.324 km
+Searching on 616 (SANTA FE): 358850.734 km
+Searching on 617 (JOHOR BAHRU): 360687.842 km
+Searching on 618 (ERZURUM): 357840.713 km
+Searching on 619 (SCHWAEBISCH HALL): 357181.037 km
+Searching on 620 (VOLGOGRAD): 371047.957 km
+Searching on 621 (LANGGUR): 358508.0 km
+Searching on 622 (ZARAGOZA): 373462.787 km
+Searching on 623 (WATSON LAKE): 356480.993 km
+Searching on 624 (NEWBURGH): 358690.448 km
+Searching on 625 (DELHI): 358810.196 km
+Searching on 626 (IGUAZU FALLS): 360937.663 km
+Searching on 627 (AGANA): 357588.993 km
+Searching on 628 (HANGZHOU): 361094.164 km
+Searching on 629 (SAMOS): 370331.303 km
+Searching on 630 (MILLVILLE): 369482.725 km
+Searching on 631 (LEEMING): 358872.546 km
+Searching on 632 (BENGHAZI): 358099.559 km
+Searching on 633 (DUNCAN TOWN): 368136.231 km
+Searching on 634 (COBIJA): 360425.697 km
+Searching on 635 (YALINGA): 364993.997 km
+Searching on 636 (PEACE RIVER): 365692.11 km
+Searching on 637 (LA QUIACA): 359868.204 km
+Searching on 638 (ARZANA): 352231.741 km
+Searching on 639 (FARO): 355993.183 km
+Searching on 640 (HURGHADA): 352585.413 km
+Searching on 641 (KHASAB): 360078.436 km
+Searching on 642 (ROBINSON): 369425.62 km
+Searching on 643 (OMSK): 356923.824 km
+Searching on 644 (SACHON): 368727.797 km
+Searching on 645 (SIDI IFINI): 363865.478 km
+Searching on 646 (DAMMAM): 352255.1 km
+Searching on 647 (MINERAL WELLS): 369856.339 km
+Searching on 648 (GEORGETOWN): 361873.181 km
+Searching on 649 (LONDON): 358849.542 km
+Searching on 650 (FEZ): 373364.089 km
+Searching on 651 (PORT HARDY): 364396.435 km
+Searching on 652 (GOLOUCHESTERSHIRE): 358965.709 km
+Searching on 653 (PANAMA CITY): 362077.742 km
+Searching on 654 (MATARAM): 360328.868 km
+Searching on 655 (FORT SAINT JOHN): 361646.612 km
+Searching on 656 (SAN ANTONIO): 360416.589 km
+Searching on 657 (HUANUCO): 361528.998 km
+Searching on 658 (ALICE SPRINGS): 361334.831 km
+Searching on 659 (SYKTYVKAR): 357033.835 km
+Searching on 660 (PRESIDENT PRUDENTE): 361270.161 km
+Searching on 661 (DUNSFOLD): 359004.568 km
+Searching on 662 (BAIDOA): 352012.645 km
+Searching on 663 (TOURS): 363467.84 km
+Searching on 664 (TAMWORTH): 362800.548 km
+Searching on 665 (FRESNO): 356475.227 km
+Searching on 666 (VITERBO): 360923.567 km
+Searching on 667 (VILLA GESELL): 359026.662 km
+Searching on 668 (SAIDU SHARIF): 354733.635 km
+Searching on 669 (DOVER): 358399.918 km
+Searching on 670 (SOGNDAL): 356687.818 km
+Searching on 671 (NEUBURG): 357357.083 km
+Searching on 672 (JEDDAH): 367433.015 km
+Searching on 673 (ARACATUBA): 361131.076 km
+Searching on 674 (PUTAO): 361104.166 km
+Searching on 675 (ANTANANARIVO): 360453.216 km
+Searching on 676 (ST.-YAN): 358736.651 km
+Searching on 677 (REGINA): 365113.017 km
+Searching on 678 (WEST CHICAGO): 364980.586 km
+Searching on 679 (ESTIMA): 358372.552 km
+Searching on 680 (NEPALGUNJ): 358617.151 km
+Searching on 681 (LAPPEENRANTA): 359932.632 km
+Searching on 682 (CHATHAM): 369412.481 km
+Searching on 683 (SENDAI): 357512.905 km
+Searching on 684 (SHANNON): 359426.26 km
+Searching on 685 (CONNAUGHT): 358931.592 km
+Searching on 686 (KUANTAN): 360730.247 km
+Searching on 687 (JEBEL DHANA): 352163.922 km
+Searching on 688 (APOLO): 367350.966 km
+Searching on 689 (YA LA): 360886.051 km
+Searching on 690 (PLYMOUTH): 357896.958 km
+Searching on 691 (SEBHA): 353832.394 km
+Searching on 692 (ILOILO): 357850.401 km
+Searching on 693 (ANCHORAGE): 357841.931 km
+Searching on 694 (BARROW ISLAND): 358862.713 km
+Searching on 695 (FAJARDO): 367557.336 km
+Searching on 696 (COSFORD): 358775.41 km
+Searching on 697 (THESSALONIKI): 358276.611 km
+Searching on 698 (MITZIC): 359683.728 km
+Searching on 699 (LORETO): 359035.965 km
+Searching on 700 (VRSAC): 358435.938 km
+Searching on 701 (SHANTE): 362273.921 km
+Searching on 702 (KINGSVILLE): 366002.219 km
+Searching on 703 (CHOTEBOR): 358425.732 km
+Searching on 704 (ZIHUATANEJO): 364123.018 km
+Searching on 705 (OAKEY): 364928.211 km
+Searching on 706 (BEDFORD): 358855.467 km
+Searching on 707 (MAKALE): 351098.406 km
+Searching on 708 (FARILA): 357372.514 km
+Searching on 709 (FORT HOOD): 362622.852 km
+Searching on 710 (SINTANG): 355067.783 km
+Searching on 711 (CHELYABINSK): 354898.705 km
+Searching on 712 (ANGELHOLM): 360415.06 km
+Searching on 713 (BITAM): 366428.532 km
+Searching on 714 (NINBO): 360991.876 km
+Searching on 715 (LVOV): 371255.587 km
+Searching on 716 (BANGASSOU): 357614.515 km
+Searching on 717 (CERVIA): 361101.952 km
+Searching on 718 (SANTA CLARA): 366836.956 km
+Searching on 719 (LA ROMANA): 360044.374 km
+Searching on 720 (SHERBROOKE): 370474.944 km
+Searching on 721 (TIJUANA): 368769.483 km
+Searching on 722 (BRUSSELS): 358414.209 km
+Searching on 723 (GWERT): 350839.568 km
+Searching on 724 (MAFIKENG): 358592.566 km
+Searching on 725 (KARRATHA): 359629.935 km
+Searching on 726 (MORONI): 357476.776 km
+Searching on 727 (LE LUC): 358881.142 km
+Searching on 728 (DEADHORSE): 361810.9 km
+Searching on 729 (MASERU): 357890.935 km
+Searching on 730 (ULONGWE): 362368.824 km
+Searching on 731 (OKHA): 355698.207 km
+Searching on 732 (CIUDAD OBREGON): 359072.862 km
+Searching on 733 (LIBREVILLE): 366114.075 km
+Searching on 734 (SEATTLE): 364622.351 km
+Searching on 735 (JACKSON): 369880.354 km
+Searching on 736 (PETROLINE 6): 367284.378 km
+Searching on 737 (ALONG): 357937.612 km
+Searching on 738 (SANTA CRUZ): 363505.497 km
+Searching on 739 (TOULOUSE): 369396.157 km
+Searching on 740 (NANJING): 367053.339 km
+Searching on 741 (VAN): 357899.832 km
+Searching on 742 (EL-GORA): 358142.109 km
+Searching on 743 (PORT MORESBY): 358409.373 km
+Searching on 744 (MOULINS): 358721.186 km
+Searching on 745 (KOHNAN): 367948.395 km
+Searching on 746 (LOS ANGELES): 356747.373 km
+Searching on 747 (BURLINGTON): 369477.855 km
+Searching on 748 (TORONTO): 362023.625 km
+Searching on 749 (NORTH BATTLEFORD): 361225.104 km
+Searching on 750 (GOA): 358468.363 km
+Searching on 751 (BANDAR ABBAS): 360053.261 km
+Searching on 752 (SAN FILIPE): 356873.128 km
+Searching on 753 (KOMATIPOORT): 358206.853 km
+Searching on 754 (FORT BENNING): 357321.897 km
+Searching on 755 (GRENCHEN): 372679.941 km
+Searching on 756 (PAU): 361185.392 km
+Searching on 757 (LAFAYETTE): 369786.501 km
+Searching on 758 (SAN IGNACIO DE MOXOS): 364983.127 km
+Searching on 759 (JACARE-ACANGA): 367460.045 km
+Searching on 760 (CORK): 359330.573 km
+Searching on 761 (BRINDISI): 359313.155 km
+Searching on 762 (GORGAN): 352804.102 km
+Searching on 763 (SANTA BARBARA): 360308.914 km
+Searching on 764 (CIENFUEGOS): 362546.507 km
+Searching on 765 (PERM): 371109.3 km
+Searching on 766 (JAUJA): 360370.272 km
+Searching on 767 (CASEMENT): 359144.708 km
+Searching on 768 (ISKENDERUN): 359912.954 km
+Searching on 769 (ALTA): 355828.282 km
+Searching on 770 (BUFFALO): 361905.241 km
+Searching on 771 (MYRTLE BEACH): 362001.317 km
+Searching on 772 (POINT MUGU): 360040.016 km
+Searching on 773 (LUENA): 364528.159 km
+Searching on 774 (BAGHDOGRA): 362703.97 km
+Searching on 775 (SAN DIEGO): 368798.234 km
+Searching on 776 (MIR PUR KHAS): 351471.849 km
+Searching on 777 (AMSELE): 356335.097 km
+Searching on 778 (NOME): 357663.811 km
+Searching on 779 (DUMAGUETE): 364625.344 km
+Searching on 780 (TRUJILLO): 360809.072 km
+Searching on 781 (WEST HAMPTON BEACH): 358734.195 km
+Searching on 782 (HOUSTON): 362809.085 km
+Searching on 783 (PIETERSBURG): 358369.374 km
+Searching on 784 (NICARO): 361851.051 km
+Searching on 785 (TCHIBANGA): 353081.277 km
+Searching on 786 (YAMOUSSOUKRO): 360319.317 km
+Searching on 787 (LAMERD): 360227.134 km
+Searching on 788 (JAHROM): 360599.712 km
+Searching on 789 (NHATRANG): 358315.178 km
+Searching on 790 (KWAJALEIN): 358640.43 km
+Searching on 791 (MATURIN): 367405.453 km
+Searching on 792 (SONGKHLA): 360879.893 km
+Searching on 793 (BRISBANE): 364952.03 km
+Searching on 794 (CEDAR CITY): 368731.88 km
+Searching on 795 (MIQUELON): 369565.578 km
+Searching on 796 (KLAGENFURT): 368377.412 km
+Searching on 797 (ADANA): 357897.028 km
+Searching on 798 (GULU): 352796.498 km
+Searching on 799 (ARDABIL): 357940.509 km
+Searching on 800 (DILLINGHAM): 364451.565 km
+Searching on 801 (WROCLAW): 361028.741 km
+Searching on 802 (YLIVIESKA-RAUDASKYLA): 359928.863 km
+Searching on 803 (CUBI NAS): 359114.233 km
+Searching on 804 (CHERBOURG): 358077.12 km
+Searching on 805 (KIRKWALL): 363359.14 km
+Searching on 806 (NAMSANG): 358818.189 km
+Searching on 807 (BUJUMBURA): 365529.444 km
+Searching on 808 (KRIEL): 357889.049 km
+Searching on 809 (TINDOUF): 370197.433 km
+Searching on 810 (LA CEIBA): 367008.053 km
+Searching on 811 (EMMEN): 359093.921 km
+Searching on 812 (MEKNES): 373360.535 km
+Searching on 813 (LILABARI): 357945.024 km
+Searching on 814 (TUKTOYAKTUK): 357242.491 km
+Searching on 815 (COETIVY): 358396.643 km
+Searching on 816 (SIGLUFJORDUR): 361542.839 km
+Searching on 817 (LLOYDMINSTER): 366074.868 km
+Searching on 818 (SUMBAWA): 360461.729 km
+Searching on 819 (GIFU): 367922.32 km
+Searching on 820 (STARA ZAGORA): 355802.951 km
+Searching on 821 (SAN FERNANDO): 366825.027 km
+Searching on 822 (SOESTERBERG): 358875.496 km
+Searching on 823 (ARAUCA): 360254.852 km
+Searching on 824 (CIUDAD BOLIVAR): 360094.676 km
+Searching on 825 (WORMS): 357353.343 km
+Searching on 826 (CIUDAD DEL CARMEN): 361877.273 km
+Searching on 827 (FASSBERG): 361562.992 km
+Searching on 828 (NANNING): 366387.991 km
+Searching on 829 (RUSTENBURG): 357948.217 km
+Searching on 830 (ALEXANDER BAY): 360356.019 km
+Searching on 831 (NOSARA BEACH): 366719.373 km
+Searching on 832 (OUESSANT): 370900.168 km
+Searching on 833 (MATSU): 360468.767 km
+Searching on 834 (SAO LUIS): 363954.121 km
+Searching on 835 (COLLIQUE): 361252.178 km
+Searching on 836 (ANDOYA): 356193.99 km
+Searching on 837 (PROVIDENCIALES): 361833.108 km
+Searching on 838 (RIO DE JANEIRO): 367152.633 km
+Searching on 839 (GRONINGEN): 361632.996 km
+Searching on 840 (WATERLOO): 361969.872 km
+Searching on 841 (DONGOLA): 366474.438 km
+Searching on 842 (KEFLAVIK): 361545.066 km
+Searching on 843 (SLIGO): 358888.652 km
+Searching on 844 (CASABLANCA): 363754.114 km
+Searching on 845 (KANSAS CITY): 361641.772 km
+Searching on 846 (CUFAR): 369520.852 km
+Searching on 847 (FORESTVILLE): 369376.372 km
+Searching on 848 (ELKINS): 365526.194 km
+Searching on 849 (KAOLACK): 363932.63 km
+Searching on 850 (SUI): 355550.024 km
+Searching on 851 (RHODOS): 370110.84 km
+Searching on 852 (INHAMBANE): 358415.34 km
+Searching on 853 (KITEE): 355867.674 km
+Searching on 854 (PRINCIPE): 366350.443 km
+Searching on 855 (SHEBERGHAN): 360226.398 km
+Searching on 856 (LOUISIANA): 369766.107 km
+Searching on 857 (CHANDIGARH): 359021.037 km
+Searching on 858 (SEOUL): 368675.387 km
+Searching on 859 (BARROW): 361668.146 km
+Searching on 860 (PILAR): 360583.261 km
+Searching on 861 (LIPA): 364409.291 km
+Searching on 862 (MERCED): 356561.641 km
+Searching on 863 (BEER-SHEBA): 352347.413 km
+Searching on 864 (ITAITUBA): 366231.607 km
+Searching on 865 (PHNOM-PENH): 358634.825 km
+Searching on 866 (SAN MATHIAS): 360409.539 km
+Searching on 867 (MANZANILLO): 367184.391 km
+Searching on 868 (MATAMOROS): 365410.578 km
+Searching on 869 (KORHOGO): 366279.774 km
+Searching on 870 (AIZWAL): 359577.995 km
+Searching on 871 (DURANGO): 358966.953 km
+Searching on 872 (ALDAN): 358453.671 km
+Searching on 873 (KIGALI): 352799.533 km
+Searching on 874 (LADAG): 364515.996 km
+Searching on 875 (HAVRE): 364920.553 km
+Searching on 876 (JACKSONVILLE): 357930.579 km
+Searching on 877 (GUAPILES): 366841.07 km
+Searching on 878 (DES MOINES): 361026.34 km
+Searching on 879 (CHUUK): 358293.482 km
+Searching on 880 (BANAK): 355859.793 km
+Searching on 881 (AGRA): 358693.674 km
+Searching on 882 (MARAGROSA): 360926.707 km
+Searching on 883 (EL DORADO): 360318.471 km
+Searching on 884 (LANSING): 369262.414 km
+Searching on 885 (RECIFE): 364823.593 km
+Searching on 886 (SARGODHA): 359366.248 km
+Searching on 887 (DUBENDORF): 372686.26 km
+Searching on 888 (VREDENDAL): 360582.358 km
+Searching on 889 (COLD LAKE): 354908.11 km
+Searching on 890 (BANANERA): 369314.167 km
+Searching on 891 (CANEFIELD): 359847.818 km
+Searching on 892 (KASUNGU): 362262.752 km
+Searching on 893 (MADRID): 373371.904 km
+Searching on 894 (GONDAR): 360103.858 km
+Searching on 895 (NAMEST): 361526.785 km
+Searching on 896 (LOIKAW): 362512.134 km
+Searching on 897 (EVREUX): 358313.47 km
+Searching on 898 (GODOLLO): 356933.777 km
+Searching on 899 (AL HAMRA): 352150.971 km
+Searching on 900 (PORTO VELHO): 366549.401 km
+Searching on 901 (BEIRUT): 359898.588 km
+Searching on 902 (PEMBA): 357934.376 km
+Searching on 903 (RIO DE JANEIRO): 367161.266 km
+Searching on 904 (TORONTO): 362022.188 km
+Searching on 905 (ABECHE): 357903.228 km
+Searching on 906 (QINGDAO): 368475.948 km
+Searching on 907 (MANSTON): 357446.809 km
+Searching on 908 (CHATHAM ISLAND): 354849.975 km
+Searching on 909 (ST.-GEORGES OYAPOCK): 365905.313 km
+Searching on 910 (NEW YORK): 358899.626 km
+Searching on 911 (HAWARDEN): 358771.265 km
+Searching on 912 (DENVER): 359210.096 km
+Searching on 913 (BETTLES): 365827.788 km
+Searching on 914 (QUUJJUAQ): 367547.246 km
+Searching on 915 (CARDIFF): 360946.585 km
+Searching on 916 (FICKSBURG): 357953.276 km
+Searching on 917 (YALOVA): 357787.03 km
+Searching on 918 (HURON): 365071.942 km
+Searching on 919 (LE PUY): 357770.195 km
+Searching on 920 (YURIMAGUAS): 361271.939 km
+Searching on 921 (VESTMANNAEYJAR): 361531.822 km
+Searching on 922 (LAVAN ISLAND): 360709.984 km
+Searching on 923 (HIVA-OA): 368647.027 km
+Searching on 924 (KOSRAE): 359097.967 km
+Searching on 925 (HANNOVER): 361610.82 km
+Searching on 926 (GUNUNG SITOLI): 355688.506 km
+Searching on 927 (SAN JOSE): 366783.379 km
+Searching on 928 (TRONDHEIM): 360261.527 km
+Searching on 929 (BARRANCABERMEJA): 366805.187 km
+Searching on 930 (ALEXANDRIA): 369838.717 km
+Searching on 931 (NAKHON RATCHASIMA): 361360.672 km
+Searching on 932 (ABBEVILLE): 370656.705 km
+Searching on 933 (PRESTWICK): 358958.167 km
+Searching on 934 (LICHINGA): 358487.721 km
+Searching on 935 (PATINA): 360320.443 km
+Searching on 936 (MOUNDOU): 358897.949 km
+Searching on 937 (BUKAVU/KAVUMU): 365553.015 km
+Searching on 938 (LAS TUNAS): 361994.774 km
+Searching on 939 (HAGSHULT): 360837.105 km
+Searching on 940 (HARRISON): 363789.745 km
+Searching on 941 (STEPHENVILLE): 369624.744 km
+Searching on 942 (KUSTANAY): 354856.798 km
+Searching on 943 (SPRINGBOK): 360523.366 km
+Searching on 944 (LADYSMITH): 357717.641 km
+Searching on 945 (SANTO DOMINGO): 360457.136 km
+Searching on 946 (WINDSOR): 370459.023 km
+Searching on 947 (LAMEZIA): 370600.226 km
+Searching on 948 (CONGO TOWN): 361416.701 km
+Searching on 949 (PADOVA): 372698.994 km
+Searching on 950 (NICE): 358844.766 km
+Searching on 951 (BUENOS AIRES): 366811.93 km
+Searching on 952 (FORT MEADE): 369445.71 km
+Searching on 953 (EDMONTON): 361191.355 km
+Searching on 954 (OKARA): 354849.177 km
+Searching on 955 (KWAJALEIN): 358615.99 km
+Searching on 956 (ARDMORE): 355712.271 km
+Searching on 957 (MOOSONEE): 370743.77 km
+Searching on 958 (CUAMBA): 358550.361 km
+Searching on 959 (CHICOPEE FALLS): 358942.454 km
+Searching on 960 (GOLFITO): 366862.668 km
+Searching on 961 (IMMOLA): 359890.23 km
+Searching on 962 (DEPARIZO): 357979.33 km
+Searching on 963 (BEIRA): 351359.244 km
+Searching on 964 (ST. JEAN): 369510.002 km
+Searching on 965 (CAMBRIDGE): 351600.459 km
+Searching on 966 (POLYARNY): 355434.307 km
+Searching on 967 (ELIZABETH CITY): 362378.579 km
+Searching on 968 (AKURE): 359731.297 km
+Searching on 969 (KHARKOV): 371305.72 km
+Searching on 970 (BUECHEL): 371538.139 km
+Searching on 971 (CHIHUAHUA): 364724.428 km
+Searching on 972 (SUKKUR): 352356.39 km
+Searching on 973 (KAMUELA): 367755.902 km
+Searching on 974 (CASLAV): 357363.16 km
+Searching on 975 (ANDOAS): 360756.323 km
+Searching on 976 (TRIPOLI): 363983.361 km
+Searching on 977 (ALICE TOWN): 357590.003 km
+Searching on 978 (SIOFOK): 356870.424 km
+Searching on 979 (MATAGAMI): 370849.359 km
+Searching on 980 (YOKOTA): 357595.155 km
+Searching on 981 (HUAHINE ISLAND): 368073.996 km
+Searching on 982 (BRUECKEBURG): 361626.933 km
+Searching on 983 (CALABAR): 367005.688 km
+Searching on 984 (MANSA): 362322.734 km
+Searching on 985 (BOUFARIK): 364521.706 km
+Searching on 986 (LOMA LARGA): 360995.778 km
+Searching on 987 (SUDBURY): 369302.2 km
+Searching on 988 (PENDORO): 355366.797 km
+Searching on 989 (AVIANO): 361174.402 km
+Searching on 990 (HELSINKI): 359645.32 km
+Searching on 991 (KLERKSDORP): 357406.052 km
+Searching on 992 (MORA): 360565.282 km
+Searching on 993 (SALTO): 360293.854 km
+Searching on 994 (WIENER NEUSTADT OST): 361534.834 km
+Searching on 995 (OKI ISLAND): 367622.573 km
+Searching on 996 (FLORIANOPOLIS): 364180.294 km
+Searching on 997 (BELGAUM): 358501.337 km
+Searching on 998 (JERSEY): 371101.209 km
+Searching on 999 (BORA BORA): 368013.827 km
+Searching on 1000 (MINSK): 359602.985 km
+
+Start from TANJUNG SANTAN
+
+Total distance: 349368.023 km
