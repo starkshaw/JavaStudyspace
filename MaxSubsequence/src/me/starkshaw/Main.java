@@ -43,7 +43,7 @@ public class Main {
             }
             int[] result = new int[endIndex - startIndex];
             int count = 0;
-            for (int i = startIndex; i <= endIndex; i++) {
+            for (int i = startIndex; i < endIndex; i++) {
                 result[count] = sequence[i];
                 count++;
             }
